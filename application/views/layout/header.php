@@ -66,11 +66,11 @@
                                 <nav class="main-navigation d-none d-lg-block">
                                     <ul class="mainmenu">
                                         <li class="mainmenu__item menu-item-has-children position-relative">
-                                            <a href="index.html" class="mainmenu__link">Home</a>
+                                            <a href="<?= base_url(); ?>" class="mainmenu__link">Home</a>
                                             <div class="inner-menu">
                                                 <ul class="sub-menu">
                                                     <li>
-                                                        <a href="index.html">Home</a>
+                                                        <a href="<?= base_url(); ?>">Home</a>
                                                     </li>
                                                 </ul>
                                             </div>
