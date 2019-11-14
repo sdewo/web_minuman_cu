@@ -5,7 +5,7 @@
                     <div class="col-12 text-center">
                         <h1 class="page-title">Contact Us</h1>
                         <ul class="breadcrumb">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="<?= base_url(); ?>">Home</a></li>
                             <li class="current"><span>Contact Us</span></li>
                         </ul>
                     </div>

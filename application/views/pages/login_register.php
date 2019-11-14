@@ -5,7 +5,7 @@
                     <div class="col-12 text-center">
                         <h1 class="page-title">Login &amp; Register</h1>
                         <ul class="breadcrumb">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="<?= base_url(); ?>">Home</a></li>
                             <li class="current"><span>Login &amp; Register</span></li>
                         </ul>
                     </div>
