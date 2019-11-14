@@ -65,7 +65,6 @@
                             <div class="header__col header__center">
                                 <nav class="main-navigation d-none d-lg-block">
                                     <ul class="mainmenu">
-<<<<<<< HEAD
                                         <li class="mainmenu__item menu-item-has-children position-relative">
                                             <a href="index.html" class="mainmenu__link">Home</a>
                                             <div class="inner-menu">
@@ -76,15 +75,11 @@
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li class="mainmenu__item menu-item-has-children position-static">
-=======
-                                    <li class="mainmenu__item menu-item-has-children position-static">
->>>>>>> 74272ab90cb7455298502456b086aab90ca6708c
+                                        <li class="mainmenu__item menu-item-has-children position-static">                                    <li class="mainmenu__item menu-item-has-children position-static">
                                             <a href="#" class="mainmenu__link">Shop</a>
                                             <div class="inner-menu megamenu-holder">
                                                 <ul class="megamenu">
                                                     <li>
-<<<<<<< HEAD
                                                         <a class="megamenu-title" href="#">Product Details</a>
                                                         <ul>
                                                             <li>
@@ -167,7 +162,6 @@
                                                             </li>
                                                             <li>
                                                                 <a href="blog-details-gallery.html">Gallery Post</a>
-=======
                                                         <a class="megamenu-title" href="#">Category 1</a>
                                                         <ul>
                                                             <li>
@@ -236,7 +230,6 @@
                                                             </li>
                                                             <li>
                                                                 <a href="#">List Category</a>
->>>>>>> 74272ab90cb7455298502456b086aab90ca6708c
                                                             </li>
                                                             
                                                         </ul>
