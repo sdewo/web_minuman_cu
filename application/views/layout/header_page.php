@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Minuman Cu - eCommerce Drink in Indonesia</title>
+    <title>Payne - Backpack eCommerce HTML Template</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicons -->
@@ -31,11 +31,11 @@
         </div>
     </div>
     <!-- Preloader End -->
- 
+
     <!-- Main Wrapper Start -->
     <div class="wrapper">
         <!-- Header Start -->
-        <header class="header header-default site-header header-transparent">
+        <header class="header header-default site-header">
             <div class="header__outer">
                 <div class="header__inner header--fixed">
                     <div class="container">
@@ -141,7 +141,7 @@
                             </div>
                             <div class="header__col header__right">
                                 <div class="toolbar-item d-none d-lg-block">
-                                    <a href="<?php echo base_url('login'); ?>" class="toolbar-btn">
+                                    <a href="<?php echo base_url('login') ?>" class="toolbar-btn">
                                         <span>Login</span>
                                     </a>
                                 </div>
