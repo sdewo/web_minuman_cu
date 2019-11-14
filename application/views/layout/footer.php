@@ -10,9 +10,9 @@
                                 </figure>
                             </div>
                             <div class="address-widget">
-                                <address>1203 Town Center Orive #L 335458 USA</address>
+                                <address>Universitas Pertamina</address>
                                 <a href="tel:+84112345678">+841 123 456 78</a>
-                                <a href="mailto:info@company.com">info@company.com</a>
+                                <a href="mailto:info@company.com">group_cu@company.com</a>
                             </div>
                         </div>
                     </div>
@@ -31,25 +31,7 @@
                                         <i class="fa fa-angle-right"></i>
                                         <span>New Arrivals</span>
                                     </a>
-                                </li>
-                                <li>
-                                    <a href="shop.html">
-                                        <i class="fa fa-angle-right"></i>
-                                        <span>Men</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="shop.html">
-                                        <i class="fa fa-angle-right"></i>
-                                        <span>Women</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="shop.html">
-                                        <i class="fa fa-angle-right"></i>
-                                        <span>Accessories</span>
-                                    </a>
-                                </li>
+                                </li>                                
                             </ul>
                         </div>
                     </div>
@@ -79,12 +61,6 @@
                                     <a href="#">
                                         <i class="fa fa-angle-right"></i>
                                         <span>Terms &amp; Conditions</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-angle-right"></i>
-                                        <span>Look Books</span>
                                     </a>
                                 </li>
                             </ul>
