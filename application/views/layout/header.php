@@ -18,6 +18,18 @@
 
     <!-- style css -->
     <link rel="stylesheet" href="dist/css/main.css">
+
+    <style>
+    .logo--normal{
+        height : 110px;
+        width : 110px;
+    }
+    .logo--transparency{
+        height : 110px;
+        width : 110px;
+    }
+</style>
+
 </head>
 
 <body>
@@ -43,10 +55,10 @@
                             <div class="header__col header__left">
                                 <a href="index.html" class="logo">
                                     <figure class="logo--normal">
-                                        <img src="dist/img/logo/logo.png" alt="Logo">
+                                        <img src="Logo Minuman_cu.png" alt="Logo">
                                     </figure>
                                     <figure class="logo--transparency">
-                                        <img src="dist/img/logo/logo.png" alt="Logo">
+                                        <img src="Logo Minuman_cu.png" alt="Logo">
                                     </figure>
                                 </a>
                             </div>
@@ -58,10 +70,7 @@
                                             <div class="inner-menu">
                                                 <ul class="sub-menu">
                                                     <li>
-                                                        <a href="index.html">Home One</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="index-02.html">Home Two</a>
+                                                        <a href="index.html">Home</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -71,82 +80,19 @@
                                             <div class="inner-menu megamenu-holder">
                                                 <ul class="megamenu">
                                                     <li>
-                                                        <a class="megamenu-title" href="#">Shop Grid</a>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="shop-fullwidth.html">Full Width</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="shop.html">Left Sidebar</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="shop-right-sidebar.html">Right Sidebar</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="shop-three-columns.html">Three Columns</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="shop-four-columns.html">Four Columns</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        <a class="megamenu-title" href="#">Shop List</a>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="shop-list.html">Full Width</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="shop-list-sidebar.html">Left Sidebar</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="shop-list-right-sidebar.html">Right Sidebar</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
                                                         <a class="megamenu-title" href="#">Product Details</a>
                                                         <ul>
                                                             <li>
-                                                                <a href="product-details.html">Tab Style 1</a>
+                                                                <a href="product-details.html">Brown Sugar</a>
                                                             </li>
                                                             <li>
-                                                                <a href="product-details-tab-style-2.html">Tab Style 2</a>
+                                                                <a href="product-details-tab-style-2.html">Dark Chocolate</a>
                                                             </li>
                                                             <li>
-                                                                <a href="product-details-tab-style-3.html">Tab Style 3</a>
+                                                                <a href="product-details-tab-style-3.html">Avocado Juice</a>
                                                             </li>
                                                             <li>
-                                                                <a href="product-details-gallery-left.html">Gallery Left</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="product-details-gallery-right.html">Gallery Right</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="product-details-sticky-left.html">Sticky Left</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        <a class="megamenu-title" href="#">Product Details</a>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="product-details-sticky-right.html">Sticky Right</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="product-details-slider-box.html">Slider Box</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="product-details-slider-full-width.html">Slider Box Full Width</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="product-details-affiliate.html">Affiliate Proudct</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="product-details-variable.html">Variable Proudct</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="product-details-group.html">Group Product</a>
+                                                                <a href="product-details-gallery-left.html">Water Fruit</a>
                                                             </li>
                                                         </ul>
                                                     </li>
