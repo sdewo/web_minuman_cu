@@ -67,15 +67,8 @@
                                     <ul class="mainmenu">
                                         <li class="mainmenu__item menu-item-has-children position-relative">
                                             <a href="<?= base_url(); ?>" class="mainmenu__link">Home</a>
-                                            <div class="inner-menu">
-                                                <ul class="sub-menu">
-                                                    <li>
-                                                        <a href="<?= base_url(); ?>">Home</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
                                         </li>
-                                        <li class="mainmenu__item menu-item-has-children position-static">                                    <li class="mainmenu__item menu-item-has-children position-static">
+                                        <li class="mainmenu__item menu-item-has-children position-relative">
                                             <a href="#" class="mainmenu__link">Shop</a>
                                             <div class="inner-menu megamenu-holder">
                                                 <ul class="megamenu">
