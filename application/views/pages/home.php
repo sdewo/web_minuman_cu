@@ -17,9 +17,9 @@
 								<div class="slider-content">
 									<div class="slider-content__text mb--95 md-lg--80 mb-md--40 mb-sm--15">
 										<h3 class="text-uppercase font-weight-light" data-animation="fadeInUp"
-											data-duration=".3s" data-delay=".3s">AMAZING PRODUCT!</h3>
+											data-duration=".3s" data-delay=".3s">YOUR REFRESHNER DRINK!</h3>
 										<h1 class="heading__primary mb--40 mb-md--20" data-animation="fadeInUp"
-											data-duration=".3s" data-delay=".3s">BACKPACK</h1>
+											data-duration=".3s" data-delay=".3s">MINUMAN CU</h1>
 										<p class="font-weight-light" data-animation="fadeInUp"
 											data-duration=".3s" data-delay=".3s">Neque porro quisquam est, qui
 											dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
@@ -28,13 +28,13 @@
 									</div>
 									<div class="slider-content__btn">
 										<a href="shop.html" class="btn-link" data-animation="fadeInUp"
-											data-duration=".3s" data-delay=".6s">Shop Now</a>
+											data-duration=".3s" data-delay=".6s">Katalog Produk</a>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-4 offset-lg-2 col-md-4">
 								<figure class="slider-image d-none d-md-block">
-									<img src="dist/img/slider/slider-image-01.png" alt="Slider Image">
+									<img src="dist/img/logo/Logo Temp.jpg" alt="Logo Minuman Cu">
 								</figure>
 							</div>
 						</div>
@@ -50,9 +50,9 @@
 								<div class="slider-content py-0">
 									<div class="slider-content__text mb--95 md-lg--80 mb-md--40 mb-sm--15">
 										<h3 class="text-uppercase font-weight-light" data-animation="fadeInUp"
-											data-duration=".3s" data-delay=".3s">AMAZING PRODUCT!</h3>
+											data-duration=".3s" data-delay=".3s">BRIGHTEN YOUR DAY!</h3>
 										<h1 class="heading__primary mb--40 mb-md--20" data-animation="fadeInUp"
-											data-duration=".3s" data-delay=".3s">BACKPACK</h1>
+											data-duration=".3s" data-delay=".3s">MINUMAN CU</h1>
 										<p class="font-weight-light" data-animation="fadeInUp"
 											data-duration=".3s" data-delay=".3s">Neque porro quisquam est, qui
 											dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
@@ -61,13 +61,13 @@
 									</div>
 									<div class="slider-content__btn">
 										<a href="shop.html" class="btn-link" data-animation="fadeInUp"
-											data-duration=".3s" data-delay=".6s">Shop Now</a>
+											data-duration=".3s" data-delay=".6s">Katalog produk</a>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-4 offset-lg-2 col-md-4">
 								<figure class="slider-image d-none d-md-block">
-									<img src="dist/img/slider/slider-image-02.png" alt="Slider Image">
+									<img src="dist/img/logo/Logo Temp.jpg" alt="Logo Minuman Cu">
 								</figure>
 							</div>
 						</div>
