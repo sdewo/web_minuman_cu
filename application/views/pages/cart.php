@@ -39,16 +39,16 @@
                                             <tr>
                                                 <td class="product-remove text-left"><a href=""><i class="flaticon-cross"></i></a></td>
                                                 <td class="product-thumbnail text-left">
-                                                    <img src="dist/img/products/product-11-70x88.jpg" alt="Product Thumnail">
+                                                    <img src="gambar/dark chocolate.jpg" alt="Product Thumnail" style="height:75px; width:75px;">
                                                 </td>
                                                 <td class="product-name text-left wide-column">
                                                     <h3>
-                                                        <a href="product-details.html">Golden Easy Spot Chair.</a>
+                                                        <a href="product-details.html">Dark Chocolate.</a>
                                                     </h3>
                                                 </td>
                                                 <td class="product-price">
                                                     <span class="product-price-wrapper">
-                                                        <span class="money">$49.00</span>
+                                                        <span class="money">Rp.18.000</span>
                                                     </span>
                                                 </td>
                                                 <td class="product-quantity">
@@ -58,23 +58,23 @@
                                                 </td>
                                                 <td class="product-total-price">
                                                     <span class="product-price-wrapper">
-                                                        <span class="money">$49.00</span>
+                                                        <span class="money">Rp.18.000</span>
                                                     </span>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td class="product-remove text-left"><a href=""><i class="flaticon-cross"></i></a></td>
                                                 <td class="product-thumbnail text-left">
-                                                    <img src="dist/img/products/product-12-70x88.jpg" alt="Product Thumnail">
+                                                    <img src="gambar/brown sugar.jpg" alt="Product Thumnail" style="height:75px; width:75px;">
                                                 </td>
                                                 <td class="product-name text-left wide-column">
                                                     <h3>
-                                                        <a href="product-details.html">Golden Easy Spot Chair.</a>
+                                                        <a href="product-details.html">Brown Sugar.</a>
                                                     </h3>
                                                 </td>
                                                 <td class="product-price">
                                                     <span class="product-price-wrapper">
-                                                        <span class="money">$49.00</span>
+                                                        <span class="money">Rp.18.000</span>
                                                     </span>
                                                 </td>
                                                 <td class="product-quantity">
@@ -84,23 +84,23 @@
                                                 </td>
                                                 <td class="product-total-price">
                                                     <span class="product-price-wrapper">
-                                                        <span class="money">$49.00</span>
+                                                        <span class="money">Rp.18.000</span>
                                                     </span>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td class="product-remove text-left"><a href=""><i class="flaticon-cross"></i></a></td>
                                                 <td class="product-thumbnail text-left">
-                                                    <img src="dist/img/products/product-13-70x88.jpg" alt="Product Thumnail">
+                                                    <img src="gambar/original coffe.jpg" alt="Product Thumnail" style="height:75px; width:75px;">
                                                 </td>
                                                 <td class="product-name text-left wide-column">
                                                     <h3>
-                                                        <a href="product-details.html">Golden Easy Spot Chair.</a>
+                                                        <a href="product-details.html">Original Coffee.</a>
                                                     </h3>
                                                 </td>
                                                 <td class="product-price">
                                                     <span class="product-price-wrapper">
-                                                        <span class="money">$49.00</span>
+                                                        <span class="money">Rp.15.000</span>
                                                     </span>
                                                 </td>
                                                 <td class="product-quantity">
@@ -110,7 +110,7 @@
                                                 </td>
                                                 <td class="product-total-price">
                                                     <span class="product-price-wrapper">
-                                                        <span class="money">$49.00</span>
+                                                        <span class="money">Rp.15.000</span>
                                                     </span>
                                                 </td>
                                             </tr>
