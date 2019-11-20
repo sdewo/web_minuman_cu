@@ -55,10 +55,10 @@
                             <div class="header__col header__left">
                                 <a href="<?php echo base_url('home') ?>" class="logo">
                                     <figure class="logo--normal">
-                                        <img src="Logo Minuman_cu.png" alt="Logo">
+                                        <img src="gambar/Logo.png" alt="Logo">
                                     </figure>
                                     <figure class="logo--transparency">
-                                        <img src="Logo Minuman_cu.png" alt="Logo">
+                                        <img src="gambar/Logo.png" alt="Logo">
                                     </figure>
                                 </a>
                             </div>

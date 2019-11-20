@@ -6,7 +6,7 @@
                         <div class="footer-widget">
                             <div class="textwidget">
                                 <figure class="footer-logo mb--10">
-                                    <img src="dist/img/logo/logo.png" alt="Logo">
+                                    <img src="gambar/logo.png" alt="Logo" style="height:100px; width:110px;">
                                 </figure>
                             </div>
                             <div class="address-widget">

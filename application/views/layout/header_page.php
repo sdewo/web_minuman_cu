@@ -18,6 +18,17 @@
 
     <!-- style css -->
     <link rel="stylesheet" href="dist/css/main.css">
+
+    <style>
+    .logo--normal{
+        height : 110px;
+        width : 110px;
+    }
+    .logo--transparency{
+        height : 110px;
+        width : 110px;
+    }
+    </style>
 </head>
 
 <body>
@@ -43,10 +54,10 @@
                             <div class="header__col header__left">
                                 <a href="<?php echo base_url('home') ?>" class="logo">
                                     <figure class="logo--normal">
-                                        <img src="dist/img/logo/logo.png" alt="Logo">
+                                        <img src="gambar/logo.png" alt="Logo">
                                     </figure>
                                     <figure class="logo--transparency">
-                                        <img src="dist/img/logo/logo.png" alt="Logo">
+                                        <img src="gambar/logo.png" alt="Logo">
                                     </figure>
                                 </a>
                             </div>
@@ -58,78 +69,51 @@
                                             <div class="inner-menu megamenu-holder">
                                                 <ul class="megamenu">
                                                     <li>
-                                                        <a class="megamenu-title" href="#">Category 1</a>
+                                                        <a class="megamenu-title" href="#">Cold</a>
                                                         <ul>
                                                             <li>
-                                                                <a href="#">List Category</a>
+                                                                <a href="#">Avocado Juice</a>
                                                             </li>
                                                             <li>
-                                                                <a href="#">List Category</a>
+                                                                <a href="#">Brown Sugar</a>
                                                             </li>
                                                             <li>
-                                                                <a href="#">List Category</a>
+                                                                <a href="#">Water Fruit</a>
                                                             </li>
                                                             <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">List Category</a>
+                                                                <a href="#">Dark Chocolate</a>
                                                             </li>
                                                         </ul>
                                                     </li>
                                                     <li>
-                                                        <a class="megamenu-title" href="#">Category 2</a>
+                                                        <a class="megamenu-title" href="#">Hot Coffee</a>
                                                         <ul>
                                                         <li>
-                                                                <a href="#">List Category</a>
+                                                                <a href="#">Original Coffee</a>
                                                             </li>
                                                             <li>
-                                                                <a href="#">List Category</a>
+                                                                <a href="#">Espresso</a>
                                                             </li>
                                                             <li>
-                                                                <a href="#">List Category</a>
+                                                                <a href="#">Cappucino</a>
                                                             </li>
                                                         </ul>
                                                     </li>
                                                     <li>
-                                                        <a class="megamenu-title" href="#">Category 3</a>
+                                                        <a class="megamenu-title" href="#">Cold Coffee</a>
                                                         <ul>
                                                             <li>
-                                                                <a href="#">List Category</a>
+                                                                <a href="#">Original Coffee</a>
                                                             </li>
                                                             <li>
-                                                                <a href="#">List Category</a>
+                                                                <a href="#">Espresso</a>
                                                             </li>
                                                             <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
+                                                                <a href="#">Cappucino</a>
                                                             </li>
                                                         </ul>
                                                     </li>
-                                                    <li>
-                                                        <a class="megamenu-title" href="#">Category 4</a>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-                                                            
-                                                        </ul>
-                                                    </li>
+
                                                 </ul>
                                             </div>
                                         </li>
