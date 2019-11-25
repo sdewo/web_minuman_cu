@@ -158,7 +158,7 @@
                                                         <a class="megamenu-title" href="#">Category 1</a>
                                                         <ul>
                                                             <li>
-                                                                <a href="#">List Category</a>
+                                                                <a href="<?php echo base_url('product') ?>">List Category</a>
                                                             </li>
                                                             <li>
                                                                 <a href="#">List Category</a>
