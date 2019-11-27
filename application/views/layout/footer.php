@@ -6,12 +6,12 @@
                         <div class="footer-widget">
                             <div class="textwidget">
                                 <figure class="footer-logo mb--10">
-                                    <img src="gambar/logo.png" alt="Logo" style="height:100px; width:110px;">
+                                    <img src="dist/img/logo/logo.png" alt="Logo" style="height:100px; width:110px;">
                                 </figure>
                             </div>
                             <div class="address-widget">
                                 <address>Universitas Pertamina</address>
-                                <a href="tel:+84112345678">+841 123 456 78</a>
+                                <a href="tel:+84112345678">082255145155</a>
                                 <a href="mailto:info@company.com">group_cu@company.com</a>
                             </div>
                         </div>
@@ -139,7 +139,7 @@
                 </div>
                 <div class="row ptb--20">
                     <div class="col-12 text-center">
-                        <p class="copyright-text">Payne &copy; 2019 all rights reserved</p>
+                        <p class="copyright-text">Minuman_Cu &copy; 2019 all rights reserved</p>
                         <div class="social space-10">
                             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="social__link">
                                 <i class="fa fa-facebook"></i>
@@ -149,11 +149,7 @@
                                 <i class="fa fa-twitter"></i>
                                 <span class="sr-only">Twitter</span>
                             </a>
-                            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="social__link">
-                                <i class="fa fa-linkedin"></i>
-                                <span class="sr-only">Linkedin</span>
-                            </a>
-                            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social__link">
+                            <a href="https://www.instagram.com/cemilan_cu1/" target="_blank" rel="noopener noreferrer" class="social__link">
                                 <i class="fa fa-instagram"></i>
                                 <span class="sr-only">Instagram</span>
                             </a>

@@ -8,8 +8,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicons -->
-    <link rel="shortcut icon" href="gambar/logo.png" type="image/x-icon">
-    <link rel="icon minuman_cu" href="gambar/logo.png">
+    <link rel="shortcut icon" href="dist/img/logo/logo.png" type="image/x-icon">
+    <link rel="icon minuman_cu" href="dist/img/logo/logo.png">
 
     <!-- ************************* CSS Files ************************* -->
 
@@ -55,10 +55,10 @@
                             <div class="header__col header__left">
                                 <a href="<?php echo base_url('home') ?>" class="logo">
                                     <figure class="logo--normal">
-                                        <img src="gambar/Logo.png" alt="Logo">
+                                        <img src="dist/img/logo/logo.png" alt="Logo">
                                     </figure>
                                     <figure class="logo--transparency">
-                                        <img src="gambar/Logo.png" alt="Logo">
+                                        <img src="dist/img/logo/logo.png" alt="Logo">
                                     </figure>
                                 </a>
                             </div>
