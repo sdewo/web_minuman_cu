@@ -23,7 +23,7 @@
                 <div class="col-md-6 mb-sm--50">
                     <div class="login-box">
                         <h3 class="heading__tertiary mb--30">Login</h3>
-                        <form class="form form--login">
+                        <form class="form form--login" method="post" action="<?= base_url('login'); ?>">
                             <div class="form__group mb--20">
                                 <label class="form__label" for="login_email">Email address <span class="required">*</span></label>
                                 <input type="text" class="form__input" id="login_email" name="login_email">
