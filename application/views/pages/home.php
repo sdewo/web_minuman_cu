@@ -21,10 +21,8 @@
 										<h1 class="heading__primary mb--40 mb-md--20" data-animation="fadeInUp"
 											data-duration=".3s" data-delay=".3s">MINUMAN CU</h1>
 										<p class="font-weight-light" data-animation="fadeInUp"
-											data-duration=".3s" data-delay=".3s">Neque porro quisquam est, qui
-											dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-											quia non numquam eius modi
-											tempora Neque porro quisquam est, qui dolorem ipsum</p>
+											data-duration=".3s" data-delay=".3s">Minuman_Cu merupakan usaha
+											yang bergerak dalam</p>
 									</div>
 									<div class="slider-content__btn">
 										<a href="shop.html" class="btn-link" data-animation="fadeInUp"
