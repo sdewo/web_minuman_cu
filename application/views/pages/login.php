@@ -21,10 +21,13 @@
             <div class="row">
                 <div class="mx-auto">
                     <div class="login-box">
+                        <!-- Access success registration message -->
+                        <?= $this->session->flashdata('message') ?>
+
                         <form class="form form--login" method="post" action="<?= base_url('login'); ?>">
                             <div class="form__group mb--20">
                                 <label class="form__label" for="login_email">Email address <span class="required">*</span></label>
-                                <input type="text" class="form__input" id="login_email" name="login_email">
+                                <input type="text" class="form__input" id="login_email" name="login_email" value="<?= set_value('login_email'); ?>">
 
                                 <!-- Input error text view -->
                                 <?= form_error('login_email', '<small class="text-danger pl-3">', '</small>'); ?>
