@@ -32,7 +32,7 @@
 							</div>
 							<div class="col-lg-4 offset-lg-2 col-md-4">
 								<figure class="slider-image d-none d-md-block">
-									<img src="gambar/Logo.png" alt="Logo Minuman Cu">
+									<img src="dist/img/logo/logo.png" alt="Logo Minuman Cu">
 								</figure>
 							</div>
 						</div>
@@ -65,7 +65,7 @@
 							</div>
 							<div class="col-lg-4 offset-lg-2 col-md-4">
 								<figure class="slider-image d-none d-md-block">
-									<img src="dist/img/logo/Logo Temp.jpg" alt="Logo Minuman Cu">
+									<img src="dist/img/logo/logo.png" alt="Logo Minuman Cu">
 								</figure>
 							</div>
 						</div>
