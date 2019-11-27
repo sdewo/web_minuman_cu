@@ -23,7 +23,7 @@ class Login extends CI_Controller
 			$this->load->view('layout/footer');
 		} else {
 			$data = [
-				'mail' => $this->input->post('email'),
+				'mail' => htmlspecialchars($this->input->post('email', true)),
 				'password' => password_hash($this->input->post('register_password'), PASSWORD_DEFAULT)
 			];
 
