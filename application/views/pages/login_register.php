@@ -46,7 +46,7 @@
                         <form class="form form--login">
                             <div class="form__group mb--20">
                                 <label class="form__label" for="email">Email address <span class="required">*</span></label>
-                                <input type="email" class="form__input" id="email" name="email">
+                                <input type="text" class="form__input" id="email" name="email">
                             </div>
                             <div class="form__group mb--20">
                                 <label class="form__label" for="register_password">Password <span class="required">*</span></label>

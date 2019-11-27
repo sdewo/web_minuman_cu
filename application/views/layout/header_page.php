@@ -20,14 +20,15 @@
     <link rel="stylesheet" href="dist/css/main.css">
 
     <style>
-    .logo--normal{
-        height : 110px;
-        width : 110px;
-    }
-    .logo--transparency{
-        height : 110px;
-        width : 110px;
-    }
+        .logo--normal {
+            height: 110px;
+            width: 110px;
+        }
+
+        .logo--transparency {
+            height: 110px;
+            width: 110px;
+        }
     </style>
 </head>
 
@@ -64,7 +65,7 @@
                             <div class="header__col header__center">
                                 <nav class="main-navigation d-none d-lg-block">
                                     <ul class="mainmenu">
-                                    <li class="mainmenu__item menu-item-has-children position-static">
+                                        <li class="mainmenu__item menu-item-has-children position-static">
                                             <a href="#" class="mainmenu__link">Shop</a>
                                             <div class="inner-menu megamenu-holder">
                                                 <ul class="megamenu">
@@ -88,7 +89,7 @@
                                                     <li>
                                                         <a class="megamenu-title" href="#">Hot Coffee</a>
                                                         <ul>
-                                                        <li>
+                                                            <li>
                                                                 <a href="#">Original Coffee</a>
                                                             </li>
                                                             <li>
@@ -118,7 +119,7 @@
                                             </div>
                                         </li>
                                         <li class="mainmenu__item">
-                                            <a href="<?php echo base_url('contactus')?>" class="mainmenu__link">Contact Us</a>
+                                            <a href="<?php echo base_url('contactus') ?>" class="mainmenu__link">Contact Us</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -126,7 +127,7 @@
                             <div class="header__col header__right">
                                 <div class="toolbar-item d-none d-lg-block">
                                     <a href="<?php echo base_url('login') ?>" class="toolbar-btn">
-                                        <span>Login</span>
+                                        <span>Login / Register</span>
                                     </a>
                                 </div>
                                 <div class="toolbar-item">

@@ -20,15 +20,16 @@
     <link rel="stylesheet" href="dist/css/main.css">
 
     <style>
-    .logo--normal{
-        height : 110px;
-        width : 110px;
-    }
-    .logo--transparency{
-        height : 110px;
-        width : 110px;
-    }
-</style>
+        .logo--normal {
+            height: 110px;
+            width: 110px;
+        }
+
+        .logo--transparency {
+            height: 110px;
+            width: 110px;
+        }
+    </style>
 
 </head>
 
@@ -43,7 +44,7 @@
         </div>
     </div>
     <!-- Preloader End -->
- 
+
     <!-- Main Wrapper Start -->
     <div class="wrapper">
         <!-- Header Start -->
@@ -155,54 +156,54 @@
                                                             </li>
                                                             <li>
                                                                 <a href="blog-details-gallery.html">Gallery Post</a>
-                                                        <a class="megamenu-title" href="#">Category 1</a>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="<?php echo base_url('product') ?>">List Category</a>
+                                                                <a class="megamenu-title" href="#">Category 1</a>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="<?php echo base_url('product') ?>">List Category</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">List Category</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">List Category</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">List Category</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">List Category</a>
+                                                                    </li>
+                                                                </ul>
                                                             </li>
                                                             <li>
-                                                                <a href="#">List Category</a>
+                                                                <a class="megamenu-title" href="#">Category 2</a>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#">List Category</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">List Category</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">List Category</a>
+                                                                    </li>
+                                                                </ul>
                                                             </li>
                                                             <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        <a class="megamenu-title" href="#">Category 2</a>
-                                                        <ul>
-                                                        <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        <a class="megamenu-title" href="#">Category 3</a>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
+                                                                <a class="megamenu-title" href="#">Category 3</a>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#">List Category</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">List Category</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">List Category</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">List Category</a>
+                                                                    </li>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -224,14 +225,14 @@
                                                             <li>
                                                                 <a href="#">List Category</a>
                                                             </li>
-                                                            
+
                                                         </ul>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </li>
                                         <li class="mainmenu__item">
-                                            <a href="<?php echo base_url('contactus')?>" class="mainmenu__link">Contact Us</a>
+                                            <a href="<?php echo base_url('contactus') ?>" class="mainmenu__link">Contact Us</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -239,7 +240,7 @@
                             <div class="header__col header__right">
                                 <div class="toolbar-item d-none d-lg-block">
                                     <a href="<?php echo base_url('login'); ?>" class="toolbar-btn">
-                                        <span>Login</span>
+                                        <span>Login / Register</span>
                                     </a>
                                 </div>
                                 <div class="toolbar-item">
