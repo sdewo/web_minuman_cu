@@ -42,7 +42,7 @@
                                     <div class="product__inner">
                                         <div class="product__image">
                                             <figure class="product__image--holder">
-                                                <img src="dist/img/products/product-03-270x300.jpg" alt="Product">
+                                                <img src="dist/img/products/product-03-270x300.jpg" alt="Products">
                                             </figure>
                                             <a href="product-details.html" class="product__overlay"></a>
                                             <div class="product__action">
@@ -67,11 +67,11 @@
                                         <div class="product__info">
                                             <div class="product__info--left">
                                                 <h3 class="product__title">
-                                                    <a href="product-details.html">Lexbaro Begadi</a>
+                                                    <a href="product-details.html">Brown Sugar</a>
                                                 </h3>
                                                 <div class="product__price">
-                                                    <span class="money">132.00</span>
-                                                    <span class="sign">$</span>
+                                                    <span class="sign">Rp.</span>
+                                                    <span class="money">18.000</span>
                                                 </div>
                                             </div>
                                             <div class="product__info--right">
@@ -101,11 +101,11 @@
                                         </figure>
                                         <div class="product__info">
                                             <h3 class="product__title">
-                                                <a href="product-details.html">Lexbaro Begadi</a>
+                                                <a href="product-details.html">Dark Chocolate</a>
                                             </h3>
                                             <div class="product__price">
-                                                <span class="money">132.00</span>
-                                                <span class="sign">$</span>
+                                                <span class="sign">Rp.</span>
+                                                <span class="money">18.000</span>
                                             </div>
                                             <span class="product__rating">
                                                 <i class="fa fa-star"></i>
@@ -158,11 +158,11 @@
                                         <div class="product__info">
                                             <div class="product__info--left">
                                                 <h3 class="product__title">
-                                                    <a href="product-details.html">Lexbaro Begadi</a>
+                                                    <a href="product-details.html">Avocado Juice</a>
                                                 </h3>
                                                 <div class="product__price">
-                                                    <span class="money">132.00</span>
-                                                    <span class="sign">$</span>
+                                                    <span class="sign">Rp.</span>
+                                                    <span class="money">18.000</span>
                                                 </div>
                                             </div>
                                             <div class="product__info--right">
@@ -192,11 +192,11 @@
                                         </figure>
                                         <div class="product__info">
                                             <h3 class="product__title">
-                                                <a href="product-details.html">Lexbaro Begadi</a>
+                                                <a href="product-details.html">Water Fruit</a>
                                             </h3>
                                             <div class="product__price">
-                                                <span class="money">132.00</span>
-                                                <span class="sign">$</span>
+                                                <span class="sign">Rp.</span>
+                                                <span class="money">18.000</span>
                                             </div>
                                             <span class="product__rating">
                                                 <i class="fa fa-star"></i>
@@ -249,11 +249,11 @@
                                         <div class="product__info">
                                             <div class="product__info--left">
                                                 <h3 class="product__title">
-                                                    <a href="product-details.html">Lexbaro Begadi</a>
+                                                    <a href="product-details.html">Original Coffee (C)</a>
                                                 </h3>
                                                 <div class="product__price">
-                                                    <span class="money">132.00</span>
-                                                    <span class="sign">$</span>
+                                                    <span class="sign">Rp.</span>
+                                                    <span class="money">18.000</span>
                                                 </div>
                                             </div>
                                             <div class="product__info--right">
@@ -283,11 +283,11 @@
                                         </figure>
                                         <div class="product__info">
                                             <h3 class="product__title">
-                                                <a href="product-details.html">Lexbaro Begadi</a>
+                                                <a href="product-details.html">Espresso (C)</a>
                                             </h3>
                                             <div class="product__price">
-                                                <span class="money">132.00</span>
-                                                <span class="sign">$</span>
+                                                <span class="sign">Rp.</span>
+                                                <span class="money">18.000</span>
                                             </div>
                                             <span class="product__rating">
                                                 <i class="fa fa-star"></i>
@@ -340,11 +340,11 @@
                                         <div class="product__info">
                                             <div class="product__info--left">
                                                 <h3 class="product__title">
-                                                    <a href="product-details.html">Lexbaro Begadi</a>
+                                                    <a href="product-details.html">Cappucino (C)</a>
                                                 </h3>
                                                 <div class="product__price">
-                                                    <span class="money">132.00</span>
-                                                    <span class="sign">$</span>
+                                                    <span class="sign">Rp.</span>
+                                                    <span class="money">18.000</span>
                                                 </div>
                                             </div>
                                             <div class="product__info--right">
@@ -374,11 +374,11 @@
                                         </figure>
                                         <div class="product__info">
                                             <h3 class="product__title">
-                                                <a href="product-details.html">Lexbaro Begadi</a>
+                                                <a href="product-details.html">Original Coffee (H)</a>
                                             </h3>
                                             <div class="product__price">
-                                                <span class="money">132.00</span>
-                                                <span class="sign">$</span>
+                                                <span class="sign">Rp.</span>
+                                                <span class="money">18.000</span>
                                             </div>
                                             <span class="product__rating">
                                                 <i class="fa fa-star"></i>
@@ -431,11 +431,11 @@
                                         <div class="product__info">
                                             <div class="product__info--left">
                                                 <h3 class="product__title">
-                                                    <a href="product-details.html">Lexbaro Begadi</a>
+                                                    <a href="product-details.html">Espresso (H)</a>
                                                 </h3>
                                                 <div class="product__price">
-                                                    <span class="money">132.00</span>
-                                                    <span class="sign">$</span>
+                                                    <span class="sign">Rp.</span>
+                                                    <span class="money">18.000</span>
                                                 </div>
                                             </div>
                                             <div class="product__info--right">
@@ -465,11 +465,11 @@
                                         </figure>
                                         <div class="product__info">
                                             <h3 class="product__title">
-                                                <a href="product-details.html">Lexbaro Begadi</a>
+                                                <a href="product-details.html">Cappucino (H)</a>
                                             </h3>
                                             <div class="product__price">
-                                                <span class="money">132.00</span>
-                                                <span class="sign">$</span>
+                                                <span class="sign">Rp.</span>
+                                                <span class="money">18.000</span>
                                             </div>
                                             <span class="product__rating">
                                                 <i class="fa fa-star"></i>
@@ -525,8 +525,8 @@
                                                     <a href="product-details.html">Lexbaro Begadi</a>
                                                 </h3>
                                                 <div class="product__price">
-                                                    <span class="money">132.00</span>
-                                                    <span class="sign">$</span>
+                                                    <span class="sign">Rp.</span>
+                                                    <span class="money">18.000</span>
                                                 </div>
                                             </div>
                                             <div class="product__info--right">
@@ -559,8 +559,8 @@
                                                 <a href="product-details.html">Lexbaro Begadi</a>
                                             </h3>
                                             <div class="product__price">
-                                                <span class="money">132.00</span>
-                                                <span class="sign">$</span>
+                                                <span class="sign">Rp.</span>
+                                                <span class="money">18.000</span>
                                             </div>
                                             <span class="product__rating">
                                                 <i class="fa fa-star"></i>
@@ -616,8 +616,8 @@
                                                     <a href="product-details.html">Lexbaro Begadi</a>
                                                 </h3>
                                                 <div class="product__price">
-                                                    <span class="money">132.00</span>
-                                                    <span class="sign">$</span>
+                                                    <span class="sign">Rp.</span>
+                                                    <span class="money">18.000</span>
                                                 </div>
                                             </div>
                                             <div class="product__info--right">
@@ -650,8 +650,8 @@
                                                 <a href="product-details.html">Lexbaro Begadi</a>
                                             </h3>
                                             <div class="product__price">
-                                                <span class="money">132.00</span>
-                                                <span class="sign">$</span>
+                                                <span class="sign">Rp.</span>
+                                                <span class="money">18.000</span>
                                             </div>
                                             <span class="product__rating">
                                                 <i class="fa fa-star"></i>
@@ -707,8 +707,8 @@
                                                     <a href="product-details.html">Lexbaro Begadi</a>
                                                 </h3>
                                                 <div class="product__price">
-                                                    <span class="money">132.00</span>
-                                                    <span class="sign">$</span>
+                                                    <span class="sign">Rp.</span>
+                                                    <span class="money">18.000</span>
                                                 </div>
                                             </div>
                                             <div class="product__info--right">
@@ -741,8 +741,8 @@
                                                 <a href="product-details.html">Lexbaro Begadi</a>
                                             </h3>
                                             <div class="product__price">
-                                                <span class="money">132.00</span>
-                                                <span class="sign">$</span>
+                                                <span class="sign">Rp.</span>
+                                                <span class="money">18.000</span>
                                             </div>
                                             <span class="product__rating">
                                                 <i class="fa fa-star"></i>
