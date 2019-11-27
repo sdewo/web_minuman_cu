@@ -15,6 +15,7 @@
 <!-- Breadcrumb area End -->
 
 <!-- Main Content Wrapper Start -->
+
 <div class="main-content-wrapper">
     <div class="page-content-inner pt--75 pb--80">
         <div class="container">
@@ -43,6 +44,7 @@
                 <div class="col-md-6">
                     <div class="register-box">
                         <h4 class="heading__tertiary mb--30">Register</h4>
+                        <?= $this->session->flashdata('message') ?>
                         <form class="form form--register" method="post" action="<?= base_url('login') ?>">
                             <div class="form__group mb--20">
                                 <label class="form__label" for="email">Email address <span class="required">*</span></label>
