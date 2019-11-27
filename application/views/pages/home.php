@@ -17,12 +17,14 @@
 								<div class="slider-content">
 									<div class="slider-content__text mb--95 md-lg--80 mb-md--40 mb-sm--15">
 										<h3 class="text-uppercase font-weight-light" data-animation="fadeInUp"
-											data-duration=".3s" data-delay=".3s">YOUR REFRESHNER DRINK!</h3>
+											data-duration=".3s" data-delay=".3s">BRIGHTEN YOUR DAY WITH US!</h3>
 										<h1 class="heading__primary mb--40 mb-md--20" data-animation="fadeInUp"
 											data-duration=".3s" data-delay=".3s">MINUMAN CU</h1>
 										<p class="font-weight-light" data-animation="fadeInUp"
 											data-duration=".3s" data-delay=".3s">Minuman_Cu merupakan usaha
-											yang bergerak dalam</p>
+											yang bergerak dalam bidang food and beverage. Minuman_Cu menyediakan berbagai 
+											keperluan sobat acu yang dapat dijadikan sebagai teman tak nyata yang dapat
+											diminum sekaligus menghilangkan rasa haus sobat-sobat sekalian.</p>
 									</div>
 									<div class="slider-content__btn">
 										<a href="shop.html" class="btn-link" data-animation="fadeInUp"
@@ -48,14 +50,13 @@
 								<div class="slider-content py-0">
 									<div class="slider-content__text mb--95 md-lg--80 mb-md--40 mb-sm--15">
 										<h3 class="text-uppercase font-weight-light" data-animation="fadeInUp"
-											data-duration=".3s" data-delay=".3s">BRIGHTEN YOUR DAY!</h3>
+											data-duration=".3s" data-delay=".3s">YOUR REFRESHNER DRINK!</h3>
 										<h1 class="heading__primary mb--40 mb-md--20" data-animation="fadeInUp"
-											data-duration=".3s" data-delay=".3s">MINUMAN CU</h1>
+											data-duration=".3s" data-delay=".3s">Water Fruit</h1>
 										<p class="font-weight-light" data-animation="fadeInUp"
-											data-duration=".3s" data-delay=".3s">Neque porro quisquam est, qui
-											dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-											quia non numquam eius modi
-											tempora Neque porro quisquam est, qui dolorem ipsum</p>
+											data-duration=".3s" data-delay=".3s"> Dengan perpaduan buah segar serta packaging
+											yang unik dan mudah dibawah menjadikan menu
+											ini menjadi minuman favorit bagi sobat acu.<br> LET'S TRY OUR FAVORITE DRINK!!!</br></p>
 									</div>
 									<div class="slider-content__btn">
 										<a href="shop.html" class="btn-link" data-animation="fadeInUp"
@@ -65,7 +66,7 @@
 							</div>
 							<div class="col-lg-4 offset-lg-2 col-md-4">
 								<figure class="slider-image d-none d-md-block">
-									<img src="dist/img/logo/logo.png" alt="Logo Minuman Cu">
+									<img src="dist/img/products/water fruit.jpg" alt="Logo Minuman Cu">
 								</figure>
 							</div>
 						</div>
