@@ -46,11 +46,13 @@
                         <form class="form form--register" method="post" action="<?= base_url('login') ?>">
                             <div class="form__group mb--20">
                                 <label class="form__label" for="email">Email address <span class="required">*</span></label>
-                                <input type="text" class="form__input" id="email" name="email">
+                                <input type="text" class="form__input" id="email" name="email" value="<?= set_value('email'); ?>">
+                                <?= form_error('email', '<small class="text-danger pl-3">', '</small>'); ?>
                             </div>
                             <div class="form__group mb--20">
                                 <label class="form__label" for="register_password">Password <span class="required">*</span></label>
                                 <input type="password" class="form__input" id="register_password" name="register_password">
+                                <?= form_error('register_password', '<small class="text-danger pl-3">', '</small>'); ?>
                             </div>
                             <p class="privacy-text mb--20">Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy.</p>
                             <div class="form__group">
