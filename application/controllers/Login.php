@@ -12,19 +12,13 @@ class Login extends CI_Controller
 
 	public function index()
 	{
-		// Rules for registration form
-		$this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email|is_unique[customer.mail]', [
-			'is_unique' => 'This e-mail has been registered !'
-		]);
-		$this->form_validation->set_rules('register_password', 'Password', 'required|trim|min_length[8]');
-
 		// Rules for login form
 		$this->form_validation->set_rules('login_email', 'Email', 'required|trim|valid_email');
 		$this->form_validation->set_rules('login_password', 'Password', 'required|trim');
 
 		if ($this->form_validation->run() == false) {
 			$this->load->view('layout/header_page');
-			$this->load->view('pages/login_register');
+			$this->load->view('pages/login');
 			$this->load->view('layout/footer');
 		} else {
 			$data = [

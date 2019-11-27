@@ -127,7 +127,9 @@
                             <div class="header__col header__right">
                                 <div class="toolbar-item d-none d-lg-block">
                                     <a href="<?php echo base_url('login') ?>" class="toolbar-btn">
-                                        <span>Login / Register</span>
+                                        <span>Login</span>
+                                    </a>/<a href="<?= base_url('register') ?>" class="toolbar-btn">
+                                        <span>Register</span>
                                     </a>
                                 </div>
                                 <div class="toolbar-item">
