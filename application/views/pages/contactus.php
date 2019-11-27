@@ -29,27 +29,23 @@
                                 <div class="contact-info mb--20">
                                     <p>
                                         <i class="fa fa-map-marker"></i>
-                                        <span>221b Baker St, Marylebone <br>London NW1 6XE, UK</span>
+                                        <span>Jl. Limo (belakang toko bangunan permata hijau), Kebayoran lama, Jakarta selatan</span>
                                     </p>
                                     <p>
                                         <i class="fa fa-phone"></i>
-                                        <span>+1-202-242-8157</span>
-                                    </p>
-                                    <p>
-                                        <i class="fa fa-fax"></i> 
-                                        <span>+1-202-501-1829</span>
+                                        <span>082255145155</span>
                                     </p>
                                     <p>
                                         <i class="fa fa-clock-o"></i> 
-                                        <span>Mon – Fri : 9:00 – 18:00</span>
+                                        <span>Everyday : 9:00 – 22:00</span>
                                     </p>
                                 </div>
                                 <div class="social social-rounded space-10">
-                                    <a href="https://www.facebook.com" class="social__link">
+                                    <a href="https://www.facebook.com/ricky.cabi" class="social__link">
                                         <i class="fa fa-facebook"></i>
                                     </a>
-                                    <a href="https://www.twitter.com" class="social__link">
-                                        <i class="fa fa-twitter"></i>
+                                    <a href="https://www.instagram.com/cemilan_cu1/" class="social__link">
+                                        <i class="fa fa-instagram"></i>
                                     </a>
                                     <a href="https://www.plus.google.com" class="social__link">
                                         <i class="fa fa-google-plus"></i>
