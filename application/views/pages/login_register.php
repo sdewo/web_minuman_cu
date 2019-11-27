@@ -25,12 +25,18 @@
                         <h3 class="heading__tertiary mb--30">Login</h3>
                         <form class="form form--login">
                             <div class="form__group mb--20">
-                                <label class="form__label" for="username_email">Username or email address <span class="required">*</span></label>
-                                <input type="text" class="form__input" id="username_email" name="username_email">
+                                <label class="form__label" for="login_email">Email address <span class="required">*</span></label>
+                                <input type="text" class="form__input" id="login_email" name="login_email">
+
+                                <!-- Input error text view -->
+                                <?= form_error('login_email', '<small class="text-danger pl-3">', '</small>'); ?>
                             </div>
                             <div class="form__group mb--20">
                                 <label class="form__label" for="login_password">Password <span class="required">*</span></label>
                                 <input type="password" class="form__input" id="login_password" name="login_password">
+
+                                <!-- Input error text view -->
+                                <?= form_error('login_password', '<small class="text-danger pl-3">', '</small>'); ?>
                             </div>
                             <div class="d-flex align-items-center mb--20">
                                 <div class="form__group mr--30">
@@ -44,16 +50,23 @@
                 <div class="col-md-6">
                     <div class="register-box">
                         <h4 class="heading__tertiary mb--30">Register</h4>
+
+                        <!-- Access success registration message -->
                         <?= $this->session->flashdata('message') ?>
+
                         <form class="form form--register" method="post" action="<?= base_url('login') ?>">
                             <div class="form__group mb--20">
                                 <label class="form__label" for="email">Email address <span class="required">*</span></label>
                                 <input type="text" class="form__input" id="email" name="email" value="<?= set_value('email'); ?>">
+
+                                <!-- Input error text view -->
                                 <?= form_error('email', '<small class="text-danger pl-3">', '</small>'); ?>
                             </div>
                             <div class="form__group mb--20">
                                 <label class="form__label" for="register_password">Password <span class="required">*</span></label>
                                 <input type="password" class="form__input" id="register_password" name="register_password">
+
+                                <!-- Input error text view -->
                                 <?= form_error('register_password', '<small class="text-danger pl-3">', '</small>'); ?>
                             </div>
                             <p class="privacy-text mb--20">Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy.</p>
