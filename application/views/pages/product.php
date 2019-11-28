@@ -22,7 +22,7 @@
                             </div>
                             <div class="col-md-7">
                                 <div class="shop-toolbar__right">
-                                    <p class="product-pages">Showing Result  08 Among  72</p>
+                                    <p class="product-pages">Showing Result  10 Among  72</p>
                                     <div class="product-view-mode ml--50 ml-xs--0">
                                         <a class="active" href="#" data-target="grid">
                                             <img src="dist/img/icons/grid.png" alt="Grid">
@@ -42,7 +42,7 @@
                                     <div class="product__inner">
                                         <div class="product__image">
                                             <figure class="product__image--holder">
-                                                <img src="dist/img/products/product-03-270x300.jpg" alt="Products">
+                                                <img src="dist/img/products/brown sugar.jpg" alt="Products"style = "height : 183px;width : 275px">
                                             </figure>
                                             <a href="product-details.html" class="product__overlay"></a>
                                             <div class="product__action">
@@ -90,7 +90,7 @@
                                     <div class="product__inner">
                                         <figure class="product__image">
                                             <a href="product-details.html" class="d-block">
-                                                <img src="dist/img/products/product-03-270x300.jpg" alt="Products">
+                                                <img src="dist/img/products/brown sugar.jpg" alt="Products"style = "height : 183px; width : 275px">
                                             </a>
                                             <div class="product__thumbnail-action">
                                                 <a data-toggle="modal" data-target="#productModal" class="action-btn quick-view">
@@ -101,7 +101,7 @@
                                         </figure>
                                         <div class="product__info">
                                             <h3 class="product__title">
-                                                <a href="product-details.html">Dark Chocolate</a>
+                                                <a href="product-details.html">Brown Sugar</a>
                                             </h3>
                                             <div class="product__price">
                                                 <span class="sign">Rp.</span>
@@ -115,7 +115,8 @@
                                                 <i class="fa fa-star"></i>
                                             </span>
                                             <p class="product__short-description">
-                                                Donec accumsan auctor iaculis. Sed suscipit arcu ligula, at egestas magna molestie a. Proin ac ex maximus, ultrices justo eget, sodales orci. Aliquam egestas libero ac turpis pharetra
+                                                Perpaduan antara brown sugar dengan susu cair segar.
+                                                Dapat mengembalikan keceriaan kebutuhan nutrisi bagi sobat acu
                                             </p>  
                                             <div class="d-flex product__list-action">
                                                 <a href="cart.html" class="btn btn-size-sm">Add To Cart</a>
@@ -133,7 +134,7 @@
                                     <div class="product__inner">
                                         <div class="product__image">
                                             <figure class="product__image--holder">
-                                                <img src="dist/img/products/product-04-270x300.jpg" alt="Product">
+                                                <img src="dist/img/products/avocado juice.jpg" alt="Product"style = "height : 183px;width : 275px">
                                             </figure>
                                             <a href="product-details.html" class="product-overlay"></a>
                                             <div class="product__action">
@@ -181,7 +182,7 @@
                                     <div class="product__inner">
                                         <figure class="product__image">
                                             <a href="product-details.html" class="d-block">
-                                                <img src="dist/img/products/product-04-270x300.jpg" alt="Products">
+                                                <img src="dist/img/products/water fruit.jpg" alt="Products"style = "height : 183px;width : 275px">
                                             </a>
                                             <div class="product__thumbnail-action">
                                                 <a data-toggle="modal" data-target="#productModal" class="action-btn quick-view">
@@ -206,7 +207,7 @@
                                                 <i class="fa fa-star"></i>
                                             </span>
                                             <p class="product__short-description">
-                                                Donec accumsan auctor iaculis. Sed suscipit arcu ligula, at egestas magna molestie a. Proin ac ex maximus, ultrices justo eget, sodales orci. Aliquam egestas libero ac turpis pharetra
+                                                Perpaduan antara air dan buah
                                             </p>  
                                             <div class="d-flex product__list-action">
                                                 <a href="cart.html" class="btn btn-size-sm">Add To Cart</a>
@@ -224,7 +225,7 @@
                                     <div class="product__inner">
                                         <div class="product__image">
                                             <figure class="product__image--holder">
-                                                <img src="dist/img/products/product-05-270x300.jpg" alt="Product">
+                                                <img src="dist/img/products/ice original coffee.jpg" alt="Product"style = "height : 183px;width : 275px">
                                             </figure>
                                             <a href="product-details.html" class="product-overlay"></a>
                                             <div class="product__action">
@@ -272,7 +273,7 @@
                                     <div class="product__inner">
                                         <figure class="product__image">
                                             <a href="product-details.html" class="d-block">
-                                                <img src="dist/img/products/product-05-270x300.jpg" alt="Products">
+                                                <img src="dist/img/products/espresso c.png" alt="Products"style = "height : 183px;width : 275px">
                                             </a>
                                             <div class="product__thumbnail-action">
                                                 <a data-toggle="modal" data-target="#productModal" class="action-btn quick-view">
@@ -297,7 +298,7 @@
                                                 <i class="fa fa-star"></i>
                                             </span>
                                             <p class="product__short-description">
-                                                Donec accumsan auctor iaculis. Sed suscipit arcu ligula, at egestas magna molestie a. Proin ac ex maximus, ultrices justo eget, sodales orci. Aliquam egestas libero ac turpis pharetra
+                                                Perpaduan antara
                                             </p>  
                                             <div class="d-flex product__list-action">
                                                 <a href="cart.html" class="btn btn-size-sm">Add To Cart</a>
@@ -315,7 +316,7 @@
                                     <div class="product__inner">
                                         <div class="product__image">
                                             <figure class="product__image--holder">
-                                                <img src="dist/img/products/product-06-270x300.jpg" alt="Product">
+                                                <img src="dist/img/products/cappucino c.jpg" alt="Product"style = "height : 183px;width : 275px">
                                             </figure>
                                             <a href="product-details.html" class="product-overlay"></a>
                                             <div class="product__action">
@@ -363,7 +364,7 @@
                                     <div class="product__inner">
                                         <figure class="product__image">
                                             <a href="product-details.html" class="d-block">
-                                                <img src="dist/img/products/product-06-270x300.jpg" alt="Products">
+                                                <img src="dist/img/products/original coffe.jpg" alt="Products"style = "height : 183px;width : 275px">
                                             </a>
                                             <div class="product__thumbnail-action">
                                                 <a data-toggle="modal" data-target="#productModal" class="action-btn quick-view">
@@ -388,7 +389,7 @@
                                                 <i class="fa fa-star"></i>
                                             </span>
                                             <p class="product__short-description">
-                                                Donec accumsan auctor iaculis. Sed suscipit arcu ligula, at egestas magna molestie a. Proin ac ex maximus, ultrices justo eget, sodales orci. Aliquam egestas libero ac turpis pharetra
+                                                Aroma khas yang membuat pikiran sobat acu jadi rileks kembali
                                             </p>  
                                             <div class="d-flex product__list-action">
                                                 <a href="cart.html" class="btn btn-size-sm">Add To Cart</a>
@@ -406,7 +407,7 @@
                                     <div class="product__inner">
                                         <div class="product__image">
                                             <figure class="product__image--holder">
-                                                <img src="dist/img/products/product-07-270x300.jpg" alt="Product">
+                                                <img src="dist/img/products/espresso.jpg" alt="Product"style = "height : 183px;width : 275px">
                                             </figure>
                                             <a href="product-details.html" class="product-overlay"></a>
                                             <div class="product__action">
@@ -454,7 +455,7 @@
                                     <div class="product__inner">
                                         <figure class="product__image">
                                             <a href="product-details.html" class="d-block">
-                                                <img src="dist/img/products/product-07-270x300.jpg" alt="Products">
+                                                <img src="dist/img/products/cappucino.jpg" alt="Products"style = "height : 183px;width : 275px">
                                             </a>
                                             <div class="product__thumbnail-action">
                                                 <a data-toggle="modal" data-target="#productModal" class="action-btn quick-view">
@@ -479,7 +480,8 @@
                                                 <i class="fa fa-star"></i>
                                             </span>
                                             <p class="product__short-description">
-                                                Donec accumsan auctor iaculis. Sed suscipit arcu ligula, at egestas magna molestie a. Proin ac ex maximus, ultrices justo eget, sodales orci. Aliquam egestas libero ac turpis pharetra
+                                                Perpaduan antara espresso, susu steam dan foam yang membuat hari sobat acu
+                                                ceria kembali
                                             </p>  
                                             <div class="d-flex product__list-action">
                                                 <a href="cart.html" class="btn btn-size-sm">Add To Cart</a>
@@ -497,7 +499,7 @@
                                     <div class="product__inner">
                                         <div class="product__image">
                                             <figure class="product__image--holder">
-                                                <img src="dist/img/products/product-08-270x300.jpg" alt="Product">
+                                                <img src="dist/img/products/cappucino.jpg" alt="Product"style = "height : 183px;width : 275px">
                                             </figure>
                                             <a href="product-details.html" class="product-overlay"></a>
                                             <div class="product__action">
@@ -522,7 +524,7 @@
                                         <div class="product__info">
                                             <div class="product__info--left">
                                                 <h3 class="product__title">
-                                                    <a href="product-details.html">Lexbaro Begadi</a>
+                                                    <a href="product-details.html">Cappucino(H)</a>
                                                 </h3>
                                                 <div class="product__price">
                                                     <span class="sign">Rp.</span>
@@ -545,7 +547,7 @@
                                     <div class="product__inner">
                                         <figure class="product__image">
                                             <a href="product-details.html" class="d-block">
-                                                <img src="dist/img/products/product-08-270x300.jpg" alt="Products">
+                                                <img src="dist/img/products/espresso.jpg" alt="Products"style = "height : 183px;width : 275px">
                                             </a>
                                             <div class="product__thumbnail-action">
                                                 <a data-toggle="modal" data-target="#productModal" class="action-btn quick-view">
@@ -556,7 +558,7 @@
                                         </figure>
                                         <div class="product__info">
                                             <h3 class="product__title">
-                                                <a href="product-details.html">Lexbaro Begadi</a>
+                                                <a href="product-details.html">Espresso(H)</a>
                                             </h3>
                                             <div class="product__price">
                                                 <span class="sign">Rp.</span>
@@ -570,7 +572,7 @@
                                                 <i class="fa fa-star"></i>
                                             </span>
                                             <p class="product__short-description">
-                                                Donec accumsan auctor iaculis. Sed suscipit arcu ligula, at egestas magna molestie a. Proin ac ex maximus, ultrices justo eget, sodales orci. Aliquam egestas libero ac turpis pharetra
+                                                Ekstrak biji kopi berkualitas yang dapat membuat sobat acu melek seharian
                                             </p>  
                                             <div class="d-flex product__list-action">
                                                 <a href="cart.html" class="btn btn-size-sm">Add To Cart</a>
@@ -588,7 +590,7 @@
                                     <div class="product__inner">
                                         <div class="product__image">
                                             <figure class="product__image--holder">
-                                                <img src="dist/img/products/product-09-270x300.jpg" alt="Product">
+                                                <img src="dist/img/products/water fruit.jpg" alt="Product"style = "height : 183px;width : 275px">
                                             </figure>
                                             <a href="product-details.html" class="product-overlay"></a>
                                             <div class="product__action">
@@ -613,7 +615,7 @@
                                         <div class="product__info">
                                             <div class="product__info--left">
                                                 <h3 class="product__title">
-                                                    <a href="product-details.html">Lexbaro Begadi</a>
+                                                    <a href="product-details.html">Water Fruit</a>
                                                 </h3>
                                                 <div class="product__price">
                                                     <span class="sign">Rp.</span>
@@ -636,7 +638,7 @@
                                     <div class="product__inner">
                                         <figure class="product__image">
                                             <a href="product-details.html" class="d-block">
-                                                <img src="dist/img/products/product-09-270x300.jpg" alt="Products">
+                                                <img src="dist/img/products/avocado juice.jpg" alt="Products"style = "height : 183px;width : 275px">
                                             </a>
                                             <div class="product__thumbnail-action">
                                                 <a data-toggle="modal" data-target="#productModal" class="action-btn quick-view">
@@ -647,7 +649,7 @@
                                         </figure>
                                         <div class="product__info">
                                             <h3 class="product__title">
-                                                <a href="product-details.html">Lexbaro Begadi</a>
+                                                <a href="product-details.html">Avocado Juice</a>
                                             </h3>
                                             <div class="product__price">
                                                 <span class="sign">Rp.</span>
@@ -661,7 +663,8 @@
                                                 <i class="fa fa-star"></i>
                                             </span>
                                             <p class="product__short-description">
-                                                Donec accumsan auctor iaculis. Sed suscipit arcu ligula, at egestas magna molestie a. Proin ac ex maximus, ultrices justo eget, sodales orci. Aliquam egestas libero ac turpis pharetra
+                                                Perpaduan antara buah alpukat dengan susu kental manis.
+                                                Memberikan kesegaran yang dapat memenuhi kebutuhan nutrisi bagi sobat acu
                                             </p>  
                                             <div class="d-flex product__list-action">
                                                 <a href="cart.html" class="btn btn-size-sm">Add To Cart</a>
@@ -679,7 +682,7 @@
                                     <div class="product__inner">
                                         <div class="product__image">
                                             <figure class="product__image--holder">
-                                                <img src="dist/img/products/product-10-270x300.jpg" alt="Product">
+                                                <img src="dist/img/products/dark chocolate.jpg" alt="Product"style = "height : 183px;width : 275px">
                                             </figure>
                                             <a href="product-details.html" class="product-overlay"></a>
                                             <div class="product__action">
@@ -704,7 +707,7 @@
                                         <div class="product__info">
                                             <div class="product__info--left">
                                                 <h3 class="product__title">
-                                                    <a href="product-details.html">Lexbaro Begadi</a>
+                                                    <a href="product-details.html">Dark Chocolate</a>
                                                 </h3>
                                                 <div class="product__price">
                                                     <span class="sign">Rp.</span>
@@ -727,7 +730,7 @@
                                     <div class="product__inner">
                                         <figure class="product__image">
                                             <a href="product-details.html" class="d-block">
-                                                <img src="dist/img/products/product-10-270x300.jpg" alt="Products">
+                                                <img src="dist/img/products/dark chocolate.jpg" alt="Products"style = "height : 183px;width : 275px">
                                             </a>
                                             <div class="product__thumbnail-action">
                                                 <a data-toggle="modal" data-target="#productModal" class="action-btn quick-view">
@@ -738,7 +741,7 @@
                                         </figure>
                                         <div class="product__info">
                                             <h3 class="product__title">
-                                                <a href="product-details.html">Lexbaro Begadi</a>
+                                                <a href="product-details.html">Dark Chocolate</a>
                                             </h3>
                                             <div class="product__price">
                                                 <span class="sign">Rp.</span>
@@ -752,7 +755,190 @@
                                                 <i class="fa fa-star"></i>
                                             </span>
                                             <p class="product__short-description">
-                                                Donec accumsan auctor iaculis. Sed suscipit arcu ligula, at egestas magna molestie a. Proin ac ex maximus, ultrices justo eget, sodales orci. Aliquam egestas libero ac turpis pharetra
+                                                Perpaduan antara dark chocolate dengan susu cair segar.
+                                                Menciptakan kesegaran yang dapat menghilangkan rasa haus sobat acu
+                                            </p>  
+                                            <div class="d-flex product__list-action">
+                                                <a href="cart.html" class="btn btn-size-sm">Add To Cart</a>
+                                                <a href="compare.html" class="action-btn">
+                                                    <i class="fa fa-repeat"></i>
+                                                    <span class="sr-only">Add To Compare</span>
+                                                    </a>
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-sm-6 mb--50">
+                                <div class="payne-product">
+                                    <div class="product__inner">
+                                        <div class="product__image">
+                                            <figure class="product__image--holder">
+                                                <img src="dist/img/products/original coffe.jpg" alt="Product"style = "height : 183px;width : 275px">
+                                            </figure>
+                                            <a href="product-details.html" class="product-overlay"></a>
+                                            <div class="product__action">
+                                                <a data-toggle="modal" data-target="#productModal" class="action-btn">
+                                                    <i class="fa fa-eye"></i>
+                                                    <span class="sr-only">Quick View</span>
+                                                </a>
+                                                <a href="wishlist.html" class="action-btn">
+                                                    <i class="fa fa-heart-o"></i>
+                                                    <span class="sr-only">Add to wishlist</span>
+                                                </a>
+                                                <a href="wishlist.html" class="action-btn">
+                                                    <i class="fa fa-repeat"></i>
+                                                    <span class="sr-only">Add To Compare</span>
+                                                </a>
+                                                <a href="cart.html" class="action-btn">
+                                                    <i class="fa fa-shopping-cart"></i>
+                                                    <span class="sr-only">Add To Cart</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="product__info">
+                                            <div class="product__info--left">
+                                                <h3 class="product__title">
+                                                    <a href="product-details.html">Original Coffee(H)</a>
+                                                </h3>
+                                                <div class="product__price">
+                                                    <span class="sign">Rp.</span>
+                                                    <span class="money">18.000</span>
+                                                </div>
+                                            </div>
+                                            <div class="product__info--right">
+                                                <span class="product__rating">
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="payne-product-list">
+                                    <div class="product__inner">
+                                        <figure class="product__image">
+                                            <a href="product-details.html" class="d-block">
+                                                <img src="dist/img/products/ice original coffee.jpg" alt="Products"style = "height : 183px;width : 275px">
+                                            </a>
+                                            <div class="product__thumbnail-action">
+                                                <a data-toggle="modal" data-target="#productModal" class="action-btn quick-view">
+                                                    <i class="fa fa-eye"></i>
+                                                    <span class="sr-only">Quick View</span>
+                                                </a>
+                                            </div>
+                                        </figure>
+                                        <div class="product__info">
+                                            <h3 class="product__title">
+                                                <a href="product-details.html">Original Coffee(C)</a>
+                                            </h3>
+                                            <div class="product__price">
+                                                <span class="sign">Rp.</span>
+                                                <span class="money">18.000</span>
+                                            </div>
+                                            <span class="product__rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </span>
+                                            <p class="product__short-description">
+                                                Kopi dingin yang pas buat temen nongkrong sobat acu
+                                            </p>  
+                                            <div class="d-flex product__list-action">
+                                                <a href="cart.html" class="btn btn-size-sm">Add To Cart</a>
+                                                <a href="compare.html" class="action-btn">
+                                                    <i class="fa fa-repeat"></i>
+                                                    <span class="sr-only">Add To Compare</span>
+                                                    </a>
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-sm-6 mb--50">
+                                <div class="payne-product">
+                                    <div class="product__inner">
+                                        <div class="product__image">
+                                            <figure class="product__image--holder">
+                                                <img src="dist/img/products/espresso c.png" alt="Product"style = "height : 183px;width : 275px">
+                                            </figure>
+                                            <a href="product-details.html" class="product-overlay"></a>
+                                            <div class="product__action">
+                                                <a data-toggle="modal" data-target="#productModal" class="action-btn">
+                                                    <i class="fa fa-eye"></i>
+                                                    <span class="sr-only">Quick View</span>
+                                                </a>
+                                                <a href="wishlist.html" class="action-btn">
+                                                    <i class="fa fa-heart-o"></i>
+                                                    <span class="sr-only">Add to wishlist</span>
+                                                </a>
+                                                <a href="wishlist.html" class="action-btn">
+                                                    <i class="fa fa-repeat"></i>
+                                                    <span class="sr-only">Add To Compare</span>
+                                                </a>
+                                                <a href="cart.html" class="action-btn">
+                                                    <i class="fa fa-shopping-cart"></i>
+                                                    <span class="sr-only">Add To Cart</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="product__info">
+                                            <div class="product__info--left">
+                                                <h3 class="product__title">
+                                                    <a href="product-details.html">Espresso(C)</a>
+                                                </h3>
+                                                <div class="product__price">
+                                                    <span class="sign">Rp.</span>
+                                                    <span class="money">18.000</span>
+                                                </div>
+                                            </div>
+                                            <div class="product__info--right">
+                                                <span class="product__rating">
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="payne-product-list">
+                                    <div class="product__inner">
+                                        <figure class="product__image">
+                                            <a href="product-details.html" class="d-block">
+                                                <img src="dist/img/products/cappucino c.jpg" alt="Products">
+                                            </a>
+                                            <div class="product__thumbnail-action">
+                                                <a data-toggle="modal" data-target="#productModal" class="action-btn quick-view">
+                                                    <i class="fa fa-eye"></i>
+                                                    <span class="sr-only">Quick View</span>
+                                                </a>
+                                            </div>
+                                        </figure>
+                                        <div class="product__info">
+                                            <h3 class="product__title">
+                                                <a href="product-details.html">Cappucino(C)</a>
+                                            </h3>
+                                            <div class="product__price">
+                                                <span class="sign">Rp.</span>
+                                                <span class="money">18.000</span>
+                                            </div>
+                                            <span class="product__rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </span>
+                                            <p class="product__short-description">
+                                                Minuman dingin yang bisa jadi moodbooster sobat acu
                                             </p>  
                                             <div class="d-flex product__list-action">
                                                 <a href="cart.html" class="btn btn-size-sm">Add To Cart</a>
