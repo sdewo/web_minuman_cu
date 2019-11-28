@@ -23,6 +23,7 @@ class Login extends CI_Controller
 					'mail' => $user['mail']
 				];
 				$this->session->set_userdata($data);
+				redirect('user');
 			} else {
 				$this->session->set_flashdata('message', '<div class="alert alert-danger text-center" role="alert">
 				Wrong Password!
@@ -35,6 +36,15 @@ class Login extends CI_Controller
 			 </div>');
 			redirect(base_url('login'));
 		}
+	}
+
+	public function logout()
+	{
+		$this->session->unset_userdata('mail');
+		$this->session->set_flashdata('message', '<div class="alert alert-danger text-center" role="alert">
+		You have been logout!
+		 </div>');
+		redirect('login');
 	}
 
 	public function index()
