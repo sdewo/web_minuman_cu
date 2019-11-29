@@ -70,7 +70,7 @@
                                             <a href="<?= base_url(); ?>" class="mainmenu__link">Home</a>
                                         </li>
                                         <li class="mainmenu__item menu-item-has-children position-relative">
-                                            <a href="#" class="mainmenu__link">Shop</a>
+                                            <a href="<?= base_url('product') ?>" class="mainmenu__link">Shop</a>
                                             <div class="inner-menu megamenu-holder">
                                                 <ul class="megamenu">
                                                     <li>
