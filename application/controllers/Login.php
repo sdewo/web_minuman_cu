@@ -53,8 +53,9 @@ class Login extends CI_Controller
 		$this->form_validation->set_rules('login_email', 'Email', 'required|trim|valid_email');
 		$this->form_validation->set_rules('login_password', 'Password', 'required|trim');
 
+		$customer['user_name'] = null;
 		if ($this->form_validation->run() == false) {
-			$this->load->view('layout/header_page');
+			$this->load->view('layout/header_page', $customer);
 			$this->load->view('pages/login');
 			$this->load->view('layout/footer');
 		} else {

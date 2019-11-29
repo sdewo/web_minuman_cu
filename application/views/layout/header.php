@@ -118,119 +118,6 @@
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li class="mainmenu__item menu-item-has-children position-relative">
-                                            <a href="#" class="mainmenu__link">Blog</a>
-                                            <div class="inner-menu">
-                                                <ul class="sub-menu">
-                                                    <li class="has-children">
-                                                        <a href="#">Blog Grid</a>
-                                                        <ul class="sub-menu">
-                                                            <li>
-                                                                <a href="blog-left-sidebar.html">Left Sidebar</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="blog.html">Right Sidebar</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="blog-01-column.html">One Column</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="blog-02-columns.html">Two Columns</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="blog-03-columns.html">Three Columns</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="has-children">
-                                                        <a href="#">Blog Details</a>
-                                                        <ul class="sub-menu">
-                                                            <li>
-                                                                <a href="blog-details-image.html">Image Post</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="blog-details-audio.html">Audio Post</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="blog-details-video.html">Video Post</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="blog-details-gallery.html">Gallery Post</a>
-                                                                <a class="megamenu-title" href="#">Category 1</a>
-                                                                <ul>
-                                                                    <li>
-                                                                        <a href="<?php echo base_url('product') ?>">List Category</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="#">List Category</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="#">List Category</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="#">List Category</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="#">List Category</a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                            <li>
-                                                                <a class="megamenu-title" href="#">Category 2</a>
-                                                                <ul>
-                                                                    <li>
-                                                                        <a href="#">List Category</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="#">List Category</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="#">List Category</a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                            <li>
-                                                                <a class="megamenu-title" href="#">Category 3</a>
-                                                                <ul>
-                                                                    <li>
-                                                                        <a href="#">List Category</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="#">List Category</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="#">List Category</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="#">List Category</a>
-                                                                    </li>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        <a class="megamenu-title" href="#">Category 4</a>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">List Category</a>
-                                                            </li>
-
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
                                         <li class="mainmenu__item">
                                             <a href="<?php echo base_url('contactus') ?>" class="mainmenu__link">Contact Us</a>
                                         </li>
@@ -239,11 +126,19 @@
                             </div>
                             <div class="header__col header__right">
                                 <div class="toolbar-item d-none d-lg-block">
-                                    <a href="<?php echo base_url('login') ?>" class="toolbar-btn">
-                                        <span>Login</span>
-                                    </a>/<a href="<?= base_url('register') ?>" class="toolbar-btn">
-                                        <span>Register</span>
-                                    </a>
+                                    <p><?php
+                                        if ($user_name) {
+                                            echo $user_name;
+                                        } else {
+                                            echo '<a href="<?php echo base_url("login") ?>" class="toolbar-btn">';
+                                            echo '<span>Login</span>';
+                                            echo '</a>/';
+                                            echo '<a href="<?= base_url("register") ?>" class="toolbar-btn">';
+                                            echo '<span>Register</span>';
+                                            echo '</a>';
+                                        }
+                                        ?>
+                                    </p>
                                 </div>
                                 <div class="toolbar-item">
                                     <a href="<?php echo base_url('wishlist') ?>" class="toolbar-btn">
