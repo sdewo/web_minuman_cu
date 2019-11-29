@@ -133,10 +133,10 @@
                                         if ($user_name) {
                                             echo $user_name;
                                         } else {
-                                            echo '<a href="<?php echo base_url("login") ?>" class="toolbar-btn">';
+                                            echo '<a href="login" class="toolbar-btn">';
                                             echo '<span>Login</span>';
                                             echo '</a>/';
-                                            echo '<a href="<?= base_url("register") ?>" class="toolbar-btn">';
+                                            echo '<a href="register" class="toolbar-btn">';
                                             echo '<span>Register</span>';
                                             echo '</a>';
                                         }
