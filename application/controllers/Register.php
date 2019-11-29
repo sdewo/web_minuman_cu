@@ -19,7 +19,8 @@ class Register extends CI_Controller
         $this->form_validation->set_rules('register_password', 'Password', 'required|trim|min_length[8]');
 
         if ($this->form_validation->run() == false) {
-            $this->load->view('layout/header_page');
+            $customer['user_name'] = null;
+            $this->load->view('layout/header_page', $customer);
             $this->load->view('pages/register');
             $this->load->view('layout/footer');
         } else {

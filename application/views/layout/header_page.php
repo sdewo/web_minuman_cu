@@ -65,6 +65,9 @@
                             <div class="header__col header__center">
                                 <nav class="main-navigation d-none d-lg-block">
                                     <ul class="mainmenu">
+                                        <li class="mainmenu__item menu-item-has-children position-relative">
+                                            <a href="<?= base_url(); ?>" class="mainmenu__link">Home</a>
+                                        </li>
                                         <li class="mainmenu__item menu-item-has-children position-static">
                                             <a href="#" class="mainmenu__link">Shop</a>
                                             <div class="inner-menu megamenu-holder">
@@ -126,11 +129,19 @@
                             </div>
                             <div class="header__col header__right">
                                 <div class="toolbar-item d-none d-lg-block">
-                                    <a href="<?php echo base_url('login') ?>" class="toolbar-btn">
-                                        <span>Login</span>
-                                    </a>/<a href="<?= base_url('register') ?>" class="toolbar-btn">
-                                        <span>Register</span>
-                                    </a>
+                                    <p><?php
+                                        if ($user_name) {
+                                            echo $user_name;
+                                        } else {
+                                            echo '<a href="<?php echo base_url("login") ?>" class="toolbar-btn">';
+                                            echo '<span>Login</span>';
+                                            echo '</a>/';
+                                            echo '<a href="<?= base_url("register") ?>" class="toolbar-btn">';
+                                            echo '<span>Register</span>';
+                                            echo '</a>';
+                                        }
+                                        ?>
+                                    </p>
                                 </div>
                                 <div class="toolbar-item">
                                     <a href="<?php echo base_url('wishlist') ?>" class="toolbar-btn">
