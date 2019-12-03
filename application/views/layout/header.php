@@ -150,9 +150,22 @@
                                         <span class="mini-cart-btn__icon">
                                             <i class="flaticon-bag"></i>
                                         </span>
+                                        <?php
+                                            $cart = $this->cart->contents();
+
+                                            $qty = 0;
+                                            foreach ($cart as $item){
+                                                $qty = $qty + $item['qty'];
+                                            }
+                                        ?>
+                                        <?php
+                                        if($qty == 0){
+
+                                        }else{ ?>
                                         <sup class="mini-cart-btn__count">
-                                            02
+                                                <?php echo $qty; ?>
                                         </sup>
+                                        <?php } ?>
                                     </a>
                                 </div>
                             </div>

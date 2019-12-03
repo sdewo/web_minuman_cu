@@ -28,7 +28,7 @@
                             <div class="col-xl-3 col-md-4 col-sm-6 mb--50">
                                 <div class="payne-product">
                                     <div class="product__inner">
-                                        <form method="post" action="<?php echo base_url();?>Order/tambah" method="post" accept-charset="utf-8">
+                                        <form method="post" action="<?php echo base_url();?>cart/add_cart" method="post" accept-charset="utf-8">
                                             <div class="product__image">
                                                 <figure class="product__image--holder">
                                                     <img src="<?php echo base_url() ?>dist/img/products/<?php echo $row->img; ?>" alt="Products"style = "height : 183px;width : 275px">
