@@ -121,31 +121,6 @@
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li class="mainmenu__item menu-item-has-children position-relative">
-                                            <a href="#" class="mainmenu__link">Pages</a>
-                                            <div class="inner-menu">
-                                                <ul class="sub-menu">
-                                                    <li>
-                                                        <a href="my-account.html">My Account</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="checkout.html">Checkout</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="cart.html">Cart</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="compare.html">Compare</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="order-tracking.html">Track Order</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="wishlist.html">Wishlist</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
                                         <li class="mainmenu__item">
                                             <a href="<?php echo base_url('contactus') ?>" class="mainmenu__link">Contact Us</a>
                                         </li>
