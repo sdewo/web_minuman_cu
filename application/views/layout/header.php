@@ -68,28 +68,56 @@
                                     <ul class="mainmenu">
                                         <li class="mainmenu__item menu-item-has-children position-relative">
                                             <a href="<?= base_url(); ?>" class="mainmenu__link">Home</a>
-                                        </li>
-                                        <li class="mainmenu__item menu-item-has-children position-relative">
+                                            <li class="mainmenu__item menu-item-has-children position-static">
                                             <a href="<?= base_url('product') ?>" class="mainmenu__link">Shop</a>
                                             <div class="inner-menu megamenu-holder">
                                                 <ul class="megamenu">
                                                     <li>
-                                                        <a class="megamenu-title" href="#">Product Details</a>
+                                                        <a class="megamenu-title" href="#">Cold</a>
                                                         <ul>
                                                             <li>
-                                                                <a href="product-details.html">Brown Sugar</a>
+                                                                <a href="#">Avocado Juice</a>
                                                             </li>
                                                             <li>
-                                                                <a href="product-details-tab-style-2.html">Dark Chocolate</a>
+                                                                <a href="#">Brown Sugar</a>
                                                             </li>
                                                             <li>
-                                                                <a href="product-details-tab-style-3.html">Avocado Juice</a>
+                                                                <a href="#">Water Fruit</a>
                                                             </li>
                                                             <li>
-                                                                <a href="product-details-gallery-left.html">Water Fruit</a>
+                                                                <a href="#">Dark Chocolate</a>
                                                             </li>
                                                         </ul>
                                                     </li>
+                                                    <li>
+                                                        <a class="megamenu-title" href="#">Hot Coffee</a>
+                                                        <ul>
+                                                            <li>
+                                                                <a href="#">Original Coffee</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Espresso</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Cappucino</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a class="megamenu-title" href="#">Cold Coffee</a>
+                                                        <ul>
+                                                            <li>
+                                                                <a href="#">Original Coffee</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Espresso</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Cappucino</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+
                                                 </ul>
                                             </div>
                                         </li>
