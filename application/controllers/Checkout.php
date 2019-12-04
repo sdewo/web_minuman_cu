@@ -3,10 +3,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Checkout extends CI_Controller
 {
-	function __construct(){
-		parent::__construct();		
+	function __construct()
+	{
+		parent::__construct();
 		$this->load->model('mOrder');
-		$this->load->helper('url');
 		$this->load->library('cart');
 	}
 
@@ -21,25 +21,26 @@ class Checkout extends CI_Controller
 
 	public function proses_order()
 	{
-		$data_order = array('orderDate' => date('Y-m-d'),
-							   'customerID' => 1,
-							   'notes' => "itu notes");
+		$data_order = array(
+			'orderDate' => date('Y-m-d'),
+			'customerID' => 1,
+			'notes' => "itu notes"
+		);
 		$id_order = $this->mOrder->add_order($data_order);
-			
-		if ($cart = $this->cart->contents())
-			{
-				foreach ($cart as $item)
-					{
-						$data_detail = array('orderID' =>$id_order,
-										'productID' => $item['id'],
-										'productQty' => $item['qty'],
-										'price' => $item['price']);			
-						$proses = $this->mOrder->add_detail_order($data_detail);
-					}
+
+		if ($cart = $this->cart->contents()) {
+			foreach ($cart as $item) {
+				$data_detail = array(
+					'orderID' => $id_order,
+					'productID' => $item['id'],
+					'productQty' => $item['qty'],
+					'price' => $item['price']
+				);
+				$proses = $this->mOrder->add_detail_order($data_detail);
 			}
-			
+		}
+
 		$this->cart->destroy();
 		redirect('success');
-		
 	}
 }

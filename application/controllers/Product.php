@@ -3,10 +3,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Product extends CI_Controller
 {
-	function __construct(){
-		parent::__construct();		
+	function __construct()
+	{
+		parent::__construct();
 		$this->load->model('mProduct');
-		$this->load->helper('url');
 		$this->load->library('cart');
 	}
 
