@@ -33,16 +33,18 @@
                                         </tr>
                                     </thead>
                                     <tbody>
+                                    <?php foreach($wishlist as $row){ ?>
                                         <tr>
-                                            <td class="product-remove text-left"><a href=""><i
+                                            <td class="product-remove text-left"><a href="<?php echo base_url() ?>wishlist/deleteWishlist?id=<?php echo $row['idWishlist']; ?>"><i
                                                         class="flaticon-cross"></i></a></td>
                                             <td class="product-thumbnail text-left">
-                                                <img src="dist/img/products/product-11-70x88.jpg"
-                                                    alt="Product Thumnail">
+                                                <img src="dist/img/products/<?php echo $row['img']; ?>" alt="Products" style = "height : 70px;width : 88px" >
+                                                <!-- <img src="dist/img/products/product-11-70x88.jpg"
+                                                    alt="Product Thumnail"> -->
                                             </td>
                                             <td class="product-name text-left wide-column">
                                                 <h3>
-                                                    <a href="product-details.html">Pinstripe slim-fit suit blazer</a>
+                                                    <a href="product-details.html"><?php echo $row['name']; ?></a>
                                                 </h3>
                                             </td>
                                             <td class="product-stock">
@@ -50,87 +52,22 @@
                                             </td>
                                             <td class="product-price">
                                                 <span class="product-price-wrapper">
-                                                    <span class="money">$49.00</span>
+                                                    <span class="money">Rp. <?php echo number_format($row['price'],0,",",".");?></span>
                                                 </span>
                                             </td>
-                                            <td class="product-action-btn">
-                                                <a href="cart.html" class="btn">Add to cart</a>
-                                            </td>
+                                            <form method="post" action="<?php echo base_url();?>wishlist/add_cart" method="post" accept-charset="utf-8">
+                                                <input type="hidden" name="id" value="<?php echo $row['idProduct']; ?>" />
+                                                <input type="hidden" name="nama" value="<?php echo $row['name']; ?>" />
+                                                <input type="hidden" name="harga" value="<?php echo $row['price']; ?>" />
+                                                <input type="hidden" name="gambar" value="<?php echo $row['img']; ?>" />
+                                                <input type="hidden" name="qty" value="1" />
+
+                                                <td class="product-action-btn">
+                                                    <button type="submit" class="btn">Add to cart</button>
+                                                </td>
+                                            </form>
                                         </tr>
-                                        <tr>
-                                            <td class="product-remove text-left"><a href=""><i
-                                                        class="flaticon-cross"></i></a></td>
-                                            <td class="product-thumbnail text-left">
-                                                <img src="dist/img/products/product-12-70x88.jpg"
-                                                    alt="Product Thumnail">
-                                            </td>
-                                            <td class="product-name text-left wide-column">
-                                                <h3>
-                                                    <a href="product-details.html">Warm Shaker Solid Wood End Table</a>
-                                                </h3>
-                                            </td>
-                                            <td class="product-stock">
-                                                In Stock
-                                            </td>
-                                            <td class="product-price">
-                                                <span class="product-price-wrapper">
-                                                    <span class="money">$49.00</span>
-                                                </span>
-                                            </td>
-                                            <td class="product-action-btn">
-                                                <a href="cart.html" class="btn">Add to cart</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="product-remove text-left"><a href=""><i
-                                                        class="flaticon-cross"></i></a></td>
-                                            <td class="product-thumbnail text-left">
-                                                <img src="dist/img/products/product-13-70x88.jpg"
-                                                    alt="Product Thumnail">
-                                            </td>
-                                            <td class="product-name text-left wide-column">
-                                                <h3>
-                                                    <a href="product-details.html">Atlin Designs Mid Century Club
-                                                        Chair</a>
-                                                </h3>
-                                            </td>
-                                            <td class="product-stock">
-                                                In Stock
-                                            </td>
-                                            <td class="product-price">
-                                                <span class="product-price-wrapper">
-                                                    <span class="money">$49.00</span>
-                                                </span>
-                                            </td>
-                                            <td class="product-action-btn">
-                                                <a href="cart.html" class="btn">Add to cart</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="product-remove text-left"><a href=""><i
-                                                        class="flaticon-cross"></i></a></td>
-                                            <td class="product-thumbnail text-left">
-                                                <img src="dist/img/products/product-11-70x88.jpg"
-                                                    alt="Product Thumnail">
-                                            </td>
-                                            <td class="product-name text-left wide-column">
-                                                <h3>
-                                                    <a href="product-details.html">Contemporary 5-Light Large
-                                                        Chandelier</a>
-                                                </h3>
-                                            </td>
-                                            <td class="product-stock">
-                                                In Stock
-                                            </td>
-                                            <td class="product-price">
-                                                <span class="product-price-wrapper">
-                                                    <span class="money">$49.00</span>
-                                                </span>
-                                            </td>
-                                            <td class="product-action-btn">
-                                                <a href="cart.html" class="btn">Add to cart</a>
-                                            </td>
-                                        </tr>
+                                    <?php } ?>
                                     </tbody>
                                 </table>
                             </div>

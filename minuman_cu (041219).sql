@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Dec 04, 2019 at 08:57 AM
+-- Generation Time: Dec 04, 2019 at 03:29 PM
 -- Server version: 10.4.8-MariaDB
 -- PHP Version: 7.1.32
 
@@ -78,6 +78,14 @@ CREATE TABLE `orderdetail` (
   `price` int(15) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `orderdetail`
+--
+
+INSERT INTO `orderdetail` (`id`, `orderID`, `productID`, `productQty`, `price`) VALUES
+(31, 19, 2, 1, 18000),
+(32, 19, 4, 1, 18000);
+
 -- --------------------------------------------------------
 
 --
@@ -90,6 +98,13 @@ CREATE TABLE `orders` (
   `customerID` int(11) NOT NULL,
   `notes` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `orders`
+--
+
+INSERT INTO `orders` (`id`, `orderDate`, `customerID`, `notes`) VALUES
+(19, '2019-12-03 17:00:00', 1, 'asass');
 
 -- --------------------------------------------------------
 
@@ -122,6 +137,18 @@ INSERT INTO `product` (`idProduct`, `name`, `stock`, `price`, `img`, `descriptio
 (8, 'Espresso (Hot)', 100, 16000, 'espresso.jpg', 'Aroma dari bubuk kopi yang diseduh dengan air panas bertekanan tinggi yang dipadukan dengan es batu memberikan kehangatan serta membuat pikiran sobat acu menjadi lebih rileks ', 2),
 (9, 'Cappucino (Cold)', 100, 18000, 'cappucino c.jpg', 'Perpaduan antara espresso, susu steam dan foam serta es batu dapat membuat hari sobat acu                                             ceria kembali', 3),
 (10, 'Cappucino (Hot)', 100, 16000, 'cappucino.jpg', 'Perpaduan antara espresso, susu steam dan foam dapat membuat hari sobat acu                                             ceria kembali', 2);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `wishlist`
+--
+
+CREATE TABLE `wishlist` (
+  `idWishlist` int(11) NOT NULL,
+  `productID` int(11) NOT NULL,
+  `customerID` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Indexes for dumped tables
@@ -159,6 +186,12 @@ ALTER TABLE `product`
   ADD UNIQUE KEY `ck_product` (`name`);
 
 --
+-- Indexes for table `wishlist`
+--
+ALTER TABLE `wishlist`
+  ADD PRIMARY KEY (`idWishlist`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -178,19 +211,25 @@ ALTER TABLE `customer`
 -- AUTO_INCREMENT for table `orderdetail`
 --
 ALTER TABLE `orderdetail`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 
 --
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `product`
 --
 ALTER TABLE `product`
   MODIFY `idProduct` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
+--
+-- AUTO_INCREMENT for table `wishlist`
+--
+ALTER TABLE `wishlist`
+  MODIFY `idWishlist` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
