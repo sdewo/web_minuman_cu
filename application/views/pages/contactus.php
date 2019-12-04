@@ -21,26 +21,26 @@
                 <section class="contact-area mb--75 mb-md--55">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-4 col-md-5 mb-sm--30">
-                                <div class="heading mb--32">
-                                    <h2>Get In Touch</h2>
-                                    <hr class="delimeter">
+                            <div class="col-12 text-center">
+                                <div class="col-12 text-center">
+                                    <p>
+                                        <i class="fa fa-map-marker" style="font-size:25px;"></i>
+                                        <span style="font-size:25px;">Jl. Limo (belakang toko bangunan permata hijau),<br> Kebayoran lama, Jakarta selatan</span>
+                                        <br></br>
+                                    </p>
+                                    <p>
+                                        <i class="fa fa-phone" style="font-size:25px;"></i>
+                                        <span style="font-size:25px;">082255145155</span>
+                                        <br></br>
+                                    </p>
+                                    <p>
+                                        <i class="fa fa-clock-o" style="font-size:25px;"></i> 
+                                        <span style="font-size:25px;">Everyday : 9:00 – 22:00</span>
+                                        <br></br>
+                                    </p>
+                                    <br></br>
                                 </div>
-                                <div class="contact-info mb--20">
-                                    <p>
-                                        <i class="fa fa-map-marker"></i>
-                                        <span>Jl. Limo (belakang toko bangunan permata hijau), Kebayoran lama, Jakarta selatan</span>
-                                    </p>
-                                    <p>
-                                        <i class="fa fa-phone"></i>
-                                        <span>082255145155</span>
-                                    </p>
-                                    <p>
-                                        <i class="fa fa-clock-o"></i> 
-                                        <span>Everyday : 9:00 – 22:00</span>
-                                    </p>
-                                </div>
-                                <div class="social social-rounded space-10">
+                                <div class="social social-rounded space-10" >
                                     <a href="https://www.facebook.com/ricky.cabi" class="social__link">
                                         <i class="fa fa-facebook"></i>
                                     </a>
@@ -51,19 +51,6 @@
                                         <i class="fa fa-google-plus"></i>
                                     </a>
                                 </div>
-                            </div>
-                            <div class="col-md-7 offset-lg-1">
-                                <div class="heading mb--40">
-                                    <h2>Contact Us</h2>
-                                    <hr class="delimeter">
-                                </div>
-                                <form action="mail.php" class="form" id="contact-form">
-                                    <input type="email" name="con_email" id="con_email" class="form__input mb--30" placeholder="Email*">
-                                    <input type="text" name="con_name" id="con_name" class="form__input mb--30" placeholder="Name*">
-                                    <textarea class="form__input form__input--textarea mb--30" placeholder="Message" id="con_message" name="con_message"></textarea>
-                                    <button type="submit" class="btn btn-shape-round form__submit">Send Request</button>
-                                    <div class="form__output"></div>
-                                </form>
                             </div>
                         </div>
                     </div>
