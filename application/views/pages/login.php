@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="mx-auto">
                     <div class="login-box">
-                        <!-- Access success registration message -->
+                        <!-- Access success logout message -->
                         <?= $this->session->flashdata('message') ?>
 
                         <form class="form form--login" method="post" action="<?= base_url('login'); ?>">

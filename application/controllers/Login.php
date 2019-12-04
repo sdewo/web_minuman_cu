@@ -24,7 +24,7 @@ class Login extends CI_Controller
 					'mail' => $user['mail']
 				];
 				$this->session->set_userdata($data);
-				redirect('user');
+				redirect('home');
 			} else {
 				$this->session->set_flashdata('message', '<div class="alert alert-danger text-center" role="alert">
 				Wrong Password!
