@@ -3,67 +3,104 @@
     <div class="shop-page-wrapper ptb--80">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="shop-toolbar mb--50">
-                        <div class="row align-items-center">
-                            <div class="col-md-5 mb-sm--30 mb-xs--10">
-                                <div class="shop-toolbar__left">
-                                    <div class="product-ordering">
-                                        <select class="product-ordering__select nice-select">
-                                            <option value="0">Default Sorting</option>
-                                            <option value="1">Relevance</option>
-                                            <option value="2">Name, A to Z</option>
-                                            <option value="3">Name, Z to A</option>
-                                            <option value="4">Price, low to high</option>
-                                            <option value="5">Price, high to low</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-xl-9 col-lg-8 order-lg-2 mb-md--50">
                     <div class="shop-products">
                         <div class="row">
                         <?php foreach($product as $row){ ?>
-                            <div class="col-xl-3 col-md-4 col-sm-6 mb--50">
+                            <div class="col-xl-4 col-sm-6 mb--50">
                                 <div class="payne-product">
+                                <form method="post" action="<?php echo base_url();?>cart/add_cart" method="post" accept-charset="utf-8">
+                                    <input type="hidden" name="id" value="<?php echo $row['idProduct']; ?>" />
+                                    <input type="hidden" name="nama" value="<?php echo $row['name']; ?>" />
+                                    <input type="hidden" name="harga" value="<?php echo $row['price']; ?>" />
+                                    <input type="hidden" name="gambar" value="<?php echo $row['img']; ?>" />
+                                    <input type="hidden" name="qty" value="1" />
                                     <div class="product__inner">
-                                        <form method="post" action="<?php echo base_url();?>cart/add_cart" method="post" accept-charset="utf-8">
-                                            <div class="product__image">
-                                                <figure class="product__image--holder">
-                                                    <img src="<?php echo base_url() ?>dist/img/products/<?php echo $row->img; ?>" alt="Products"style = "height : 183px;width : 275px">
-                                                </figure>
-                                                <a href="product-details.html" class="product__overlay"></a>
+                                        <div class="product__image">
+                                            <figure class="product__image--holder">
+                                                <img src="dist/img/products/<?php echo $row['img']; ?>" alt="Products" style = "height : 183px;width : 275px" >
+                                            </figure>
+                                            <div class="product__action">
+                                                <a href="wishlist.html" class="action-btn">
+                                                    <i class="fa fa-heart-o"></i>
+                                                    <span class="sr-only">Add to wishlist</span>
+                                                </a>
+                                                <button type="submit" class="action-btn">
+                                                    <i class="fa fa-shopping-cart"></i>
+                                                    <span class="sr-only">Add To Cart</span>
+                                                </button>
                                             </div>
-                                            <div class="product__info">
-                                                <div class="product__info--left">
-                                                    <h3 class="product__title">
-                                                        <a href="product-details.html"><?php echo $row->name; ?></a>
-                                                    </h3>
-                                                    <div class="product__price">
-                                                        <span class="sign">Rp.</span>
-                                                        <span class="money"><?php echo $row->price; ?></span>
-                                                    </div>
+                                        </div>
+                                        <div class="product__info">
+                                            <div class="product__info--left">
+                                                <h3 class="product__title">
+                                                    <span><?php echo $row['name']; ?></span>
+                                                </h3>
+                                                <div class="product__price">
+                                                    <span class="sign">Rp.</span>
+                                                    <span class="money"><?php echo $row['price']; ?></span>
                                                 </div>
-                                                
-                                                <input type="hidden" name="id" value="<?php echo $row->id; ?>" />
-                                                <input type="hidden" name="nama" value="<?php echo $row->name; ?>" />
-                                                <input type="hidden" name="harga" value="<?php echo $row->price; ?>" />
-                                                <input type="hidden" name="gambar" value="<?php echo $row->img; ?>" />
-                                                <input type="hidden" name="qty" value="1" />
-                                            
-                                                <button type="submit" class="add_cart btn btn-size-sm">Add To Cart</button>
                                             </div>
-                                        </form>
+                                            <div class="product__info--right">
+                                                <span class="product__rating">
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </span>
+                                            </div>
+                                        </div>
                                     </div>
+                                </form>
                                 </div>
                             </div>
                         <?php } ?>
                         </div>
                     </div>
                 </div>
+                <div class="col-xl-3 col-lg-4 order-lg-1">
+                    <aside class="shop-sidebar">
+                        <div class="shop-widget mb--40">
+                            <h3 class="widget-title mb--25">Category</h3>
+                            <ul class="widget-list category-list">
+                                <li>
+                                    <a href="product">
+                                        <span class="category-title">All</span>
+                                        <i class="fa fa-angle-double-right"></i>
+                                    </a>
+                                </li>
+                                <?php 
+                                    $cart = $this->cart->contents();
+                                    foreach($category as $row){ 
+                                ?>
+                                    <li>
+                                        <a href="<?php echo base_url(); ?>product?id=<?php echo $row['idCategory']; ?>">
+                                            <span class="category-title"><?php echo $row['nama_kategori'] ?></span>
+                                            <i class="fa fa-angle-double-right"></i>
+                                        </a>
+                                    </li>
+                                <?php } ?>
+                            </ul>
+                        </div>
+                        <div class="shop-widget mb--40">
+                            <h3 class="widget-title mb--25">Cart</h3>
+                            <ul class="widget-list brand-list">
+                                <?php
+                                    foreach ($cart as $item){
+                                ?>
+                                <li>
+                                    <a href="shop.html">
+                                        <span><?php echo $item['name']; ?></span>
+                                        <strong class="color--red font-weight-medium"><?php echo $item['qty']; ?></strong>
+                                    </a>
+                                </li>
+                                <?php } ?>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Main Content Wrapper Start -->
