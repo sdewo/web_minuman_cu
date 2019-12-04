@@ -109,7 +109,7 @@
 					<div class="featured-product">
 						<div class="featured-product__inner info-center">
 							<figure class="featured-product__image">
-								<img src="dist/img/products/discount.png" alt="Discount"style = "width:500px;height:450px">
+								<img src="dist/img/products/discount.png" alt="Discount"style = "width:400px;height:450px">
 							</figure>
 							<div class="featured-product__info wow pbounceInLeft" data-wow-delay=".3s" data-wow-duration="1s">
 								<div class="featured-product__info-inner">
