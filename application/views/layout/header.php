@@ -155,9 +155,12 @@
                                     </div>
                                 </div>
                                 <div class="toolbar-item">
-                                    <a href="<?php echo base_url('wishlist') ?>" class="toolbar-btn">
-                                        <i class="flaticon-heart"></i>
-                                    </a>
+                                    <?php
+                                    if($this->session->userdata('status') == 'login'){ ?>
+                                        <a href="<?php echo base_url('wishlist') ?>" class="toolbar-btn">
+                                            <i class="flaticon-heart"></i>
+                                        </a>
+                                   <?php }else{} ?>
                                 </div>
                                 <div class="toolbar-item mini-cart-btn">
                                     <a href="<?php echo base_url('cart') ?>" class="toolbar-btn">

@@ -21,7 +21,7 @@
                                                 <img src="dist/img/products/<?php echo $row['img']; ?>" alt="Products" style = "height : 183px;width : 275px" >
                                             </figure>
                                             <div class="product__action">
-                                                <a href="wishlist.html" class="action-btn">
+                                                <a href="<?php echo base_url() ?>wishlist/addWishlist?id=<?php echo $row['idProduct']; ?>" class="action-btn">
                                                     <i class="fa fa-heart-o"></i>
                                                     <span class="sr-only">Add to wishlist</span>
                                                 </a>
@@ -38,7 +38,7 @@
                                                 </h3>
                                                 <div class="product__price">
                                                     <span class="sign">Rp.</span>
-                                                    <span class="money"><?php echo $row['price']; ?></span>
+                                                    <span class="money"><?php echo number_format($row['price'],0,",","."); ?></span>
                                                 </div>
                                             </div>
                                             <div class="product__info--right">
