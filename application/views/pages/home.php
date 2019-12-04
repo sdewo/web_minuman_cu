@@ -98,7 +98,7 @@
 							</figure>
 							<div class="featured-product__info wow pbounceInLeft" data-wow-delay=".3s" data-wow-duration="1s">
 								<div class="featured-product__info-inner">
-									<h2 class="featured-product__name"style=color:white;>BEST SELLER !!!</h2>
+									<h2 class="featured-product__name"style=color:black;>BEST SELLER !!!</h2>
 								</div>
 							</div>
 						</div>
