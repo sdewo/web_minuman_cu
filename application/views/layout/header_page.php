@@ -70,56 +70,6 @@
                                         </li>
                                         <li class="mainmenu__item menu-item-has-children position-static">
                                             <a href="<?= base_url('product') ?>" class="mainmenu__link">Shop</a>
-                                            <div class="inner-menu megamenu-holder">
-                                                <ul class="megamenu">
-                                                    <li>
-                                                        <a class="megamenu-title" href="#">Cold</a>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="#">Avocado Juice</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Brown Sugar</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Water Fruit</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Dark Chocolate</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        <a class="megamenu-title" href="#">Hot Coffee</a>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="#">Original Coffee</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Espresso</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Cappucino</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        <a class="megamenu-title" href="#">Cold Coffee</a>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="#">Original Coffee</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Espresso</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Cappucino</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-
-                                                </ul>
-                                            </div>
                                         </li>
                                         <li class="mainmenu__item">
                                             <a href="<?php echo base_url('contactus') ?>" class="mainmenu__link">Contact Us</a>
