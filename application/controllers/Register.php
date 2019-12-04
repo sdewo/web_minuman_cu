@@ -8,9 +8,7 @@ class Register extends CI_Controller
     {
         parent::__construct();
         $this->load->library('form_validation');
-        $this->load->helper('url');
         $this->load->library('cart');
-        
     }
 
     public function index()

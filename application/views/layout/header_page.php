@@ -154,20 +154,18 @@
                                             <i class="flaticon-bag"></i>
                                         </span>
                                         <?php
-                                            $cart = $this->cart->contents();
+                                        $cart = $this->cart->contents();
 
-                                            $qty = 0;
-                                            foreach ($cart as $item){
-                                                $qty = $qty + $item['qty'];
-                                            }
+                                        $qty = 0;
+                                        foreach ($cart as $item) {
+                                            $qty = $qty + $item['qty'];
+                                        }
                                         ?>
                                         <?php
-                                        if($qty == 0){
-
-                                        }else{ ?>
-                                        <sup class="mini-cart-btn__count">
+                                        if ($qty == 0) { } else { ?>
+                                            <sup class="mini-cart-btn__count">
                                                 <?php echo $qty; ?>
-                                        </sup>
+                                            </sup>
                                         <?php } ?>
                                     </a>
                                 </div>
