@@ -26,6 +26,13 @@
 
                         <form class="form form--register" method="post" action="<?= base_url('register') ?>">
                             <div class="form__group mb--20">
+                                <label class="form__label" for="email">Nama Lengkap <span class="required">*</span></label>
+                                <input type="text" class="form__input" id="nama" name="nama" value="<?= set_value('nama'); ?>">
+
+                                <!-- Input error text view -->
+                                <?= form_error('nama', '<small class="text-danger pl-3">', '</small>'); ?>
+                            </div>
+                            <div class="form__group mb--20">
                                 <label class="form__label" for="email">Email address <span class="required">*</span></label>
                                 <input type="text" class="form__input" id="email" name="email" value="<?= set_value('email'); ?>">
 

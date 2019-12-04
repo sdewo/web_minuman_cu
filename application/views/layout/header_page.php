@@ -129,19 +129,21 @@
                             </div>
                             <div class="header__col header__right">
                                 <div class="toolbar-item d-none d-lg-block">
-                                    <p><?php
-                                        if ($user_name) {
-                                            echo $user_name;
-                                        } else {
-                                            echo '<a href="login" class="toolbar-btn">';
-                                            echo '<span>Login</span>';
-                                            echo '</a>/';
-                                            echo '<a href="register" class="toolbar-btn">';
-                                            echo '<span>Register</span>';
-                                            echo '</a>';
-                                        }
+                                    <div class="toolbar-btn">
+                                        <?php
+                                            if ($this->session->userdata('status') == "login") { ?>
+                                                <span><?php echo 'Hi,&nbsp;'.$this->session->userdata('nama'); ?></span>
+                                        <?php   
+                                            } else {
+                                                echo '<a href="login" class="toolbar-btn">';
+                                                echo '<span>Login</span>';
+                                                echo '</a>/';
+                                                echo '<a href="register" class="toolbar-btn">';
+                                                echo '<span>Register</span>';
+                                                echo '</a>';
+                                            }
                                         ?>
-                                    </p>
+                                    </div>
                                 </div>
                                 <div class="toolbar-item">
                                     <a href="<?php echo base_url('wishlist') ?>" class="toolbar-btn">
@@ -154,18 +156,20 @@
                                             <i class="flaticon-bag"></i>
                                         </span>
                                         <?php
-                                        $cart = $this->cart->contents();
+                                            $cart = $this->cart->contents();
 
-                                        $qty = 0;
-                                        foreach ($cart as $item) {
-                                            $qty = $qty + $item['qty'];
-                                        }
+                                            $qty = 0;
+                                            foreach ($cart as $item){
+                                                $qty = $qty + $item['qty'];
+                                            }
                                         ?>
                                         <?php
-                                        if ($qty == 0) { } else { ?>
-                                            <sup class="mini-cart-btn__count">
+                                        if($qty == 0){
+
+                                        }else{ ?>
+                                        <sup class="mini-cart-btn__count">
                                                 <?php echo $qty; ?>
-                                            </sup>
+                                        </sup>
                                         <?php } ?>
                                     </a>
                                 </div>
