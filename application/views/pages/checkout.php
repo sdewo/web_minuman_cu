@@ -21,22 +21,22 @@
                         <h2>Billing Details</h2>
                     </div>
                     <div class="checkout-form">
-                        <form class="form form--checkout">
+                        <form action="<?php echo base_url()?>checkout/proses_order" method="post" name="frmCO" id="frmCO" class="payment-form">
                             <div class="form-row mb--20">
                                 <div class="form__group col-md-6 mb-sm--30">
                                     <label for="billing_fname" class="form__label">First Name  <span class="required">*</span></label>
-                                    <input type="text" name="billing_fname" id="billing_fname" class="form__input">
+                                    <input type="text" name="billing_fname" id="billing_fname" class="form__input" required>
                                 </div>
                                 <div class="form__group col-md-6">
                                     <label for="billing_lname" class="form__label">Last Name  <span class="required">*</span></label>
-                                    <input type="text" name="billing_lname" id="billing_lname" class="form__input">
+                                    <input type="text" name="billing_lname" id="billing_lname" class="form__input" required>
                                 </div>
                             </div>
                             <div class="form-row mb--20">
                                 <div class="form__group col-12">
                                     <label for="billing_streetAddress" class="form__label">Street Address <span class="required">*</span></label>
 
-                                    <input type="text" name="billing_streetAddress" id="billing_streetAddress" class="form__input mb--30" placeholder="House number and street name">
+                                    <input type="text" name="billing_streetAddress" id="billing_streetAddress" class="form__input mb--30" placeholder="House number and street name" required>
 
                                     <input type="text" name="billing_apartment" id="billing_apartment" class="form__input" placeholder="Apartment, suite, unit etc. (optional)">
                                 </div>
@@ -45,13 +45,13 @@
                             <div class="form-row mb--20">
                                 <div class="form__group col-12">
                                     <label for="billing_phone" class="form__label">Phone <span class="required">*</span></label>
-                                    <input type="text" name="billing_phone" id="billing_phone" class="form__input">
+                                    <input type="text" name="billing_phone" id="billing_phone" class="form__input" required>
                                 </div>
                             </div>
                             <div class="form-row mb--20">
                                 <div class="form__group col-12">
                                     <label for="billing_email" class="form__label">Email Address  <span class="required">*</span></label>
-                                    <input type="email" name="billing_email" id="billing_email" class="form__input">
+                                    <input type="email" name="billing_email" id="billing_email" class="form__input" required>
                                 </div>
                             </div>
                             <div class="form-row">
@@ -60,7 +60,6 @@
                                     <textarea class="form__input form__input--textarea" id="orderNotes" name="orderNotes" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
                                 </div>
                             </div>
-                        </form>
                     </div>
                 </div>
                 <div class="col-xl-5 offset-xl-1 col-lg-6 mt-md--40">
@@ -101,13 +100,12 @@
                             </table>
                         </div>
                         <div class="checkout-payment">
-                            <form action="<?php echo base_url()?>checkout/proses_order" method="post" name="frmCO" id="frmCO" class="payment-form">
                                 <div class="payment-group mt--20">
                                     <p class="mb--15">Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>
                                     <button type="submit" class="btn btn-size-md btn-fullwidth">Place Order</button>
                                 </div>
-                            </form>
                         </div>
+                        </form>
                     </div>
                 </div>
                 <!-- Checkout Area End -->

@@ -14,10 +14,10 @@
     <!-- ************************* CSS Files ************************* -->
 
     <!-- Vendor CSS -->
-    <link rel="stylesheet" href="dist/css/vendor.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>dist/css/vendor.css">
 
     <!-- style css -->
-    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>dist/css/main.css">
 
     <style>
         .logo--normal {
@@ -124,24 +124,35 @@
                                         <li class="mainmenu__item">
                                             <a href="<?php echo base_url('contactus') ?>" class="mainmenu__link">Contact Us</a>
                                         </li>
+                                        <?php
+                                            if ($this->session->userdata('status') == "login") { ?>
+                                                <li class="mainmenu__item">
+                                                    <a href="<?php echo base_url('login/logout') ?>" class="mainmenu__link">Logout</a>
+                                                </li>
+                                        <?php   
+                                            } else {}
+                                        ?>
+                                        
                                     </ul>
                                 </nav>
                             </div>
                             <div class="header__col header__right">
                                 <div class="toolbar-item d-none d-lg-block">
-                                    <p><?php
-                                        if ($user_name) {
-                                            echo $user_name;
-                                        } else {
-                                            echo '<a href="login" class="toolbar-btn">';
-                                            echo '<span>Login</span>';
-                                            echo '</a>/';
-                                            echo '<a href="register" class="toolbar-btn">';
-                                            echo '<span>Register</span>';
-                                            echo '</a>';
-                                        }
+                                    <div class="toolbar-btn">
+                                        <?php
+                                            if ($this->session->userdata('status') == "login") { ?>
+                                                <span><?php echo 'Hi,&nbsp;'.$this->session->userdata('nama'); ?></span>
+                                        <?php   
+                                            } else {
+                                                echo '<a href="login" class="toolbar-btn">';
+                                                echo '<span>Login</span>';
+                                                echo '</a>/';
+                                                echo '<a href="register" class="toolbar-btn">';
+                                                echo '<span>Register</span>';
+                                                echo '</a>';
+                                            }
                                         ?>
-                                    </p>
+                                    </div>
                                 </div>
                                 <div class="toolbar-item">
                                     <a href="<?php echo base_url('wishlist') ?>" class="toolbar-btn">

@@ -21,7 +21,10 @@ class Login extends CI_Controller
 		if ($user) {
 			if (password_verify($password, $user['password'])) {
 				$data = [
-					'mail' => $user['mail']
+					'id' => $user['id'],
+					'nama' => $user['nama'],
+					'mail' => $user['mail'],
+					'status' => 'login'
 				];
 				$this->session->set_userdata($data);
 				redirect('home');
@@ -41,10 +44,7 @@ class Login extends CI_Controller
 
 	public function logout()
 	{
-		$this->session->unset_userdata('mail');
-		$this->session->set_flashdata('message', '<div class="alert alert-danger text-center" role="alert">
-		You have been logout!
-		 </div>');
+		$this->session->sess_destroy();
 		redirect('login');
 	}
 

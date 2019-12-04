@@ -1,3 +1,14 @@
+<!-- Breadcrumb area Start -->
+<section class="page-title-area bg-color" data-bg-color="#f4f4f4">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="page-title">Cart</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb area End -->
 <?php
 	if ($cart = $this->cart->contents())
 		{
