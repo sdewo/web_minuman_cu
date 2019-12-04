@@ -7,16 +7,18 @@ class Product extends CI_Controller
 	{
 		parent::__construct();
 		$this->load->model('mProduct');
+		$this->load->model('mCategory');
 		$this->load->library('cart');
 	}
 
 	public function index()
 	{
-		$data['product'] = $this->mProduct->get_all_product()->result();
-		$data['customer'] = $this->db->get_where('customer', ['mail' => $this->session->userdata('mail')])->row_array();
-		$customer['user_name'] = $data['customer']['mail'];
+		$kategory = $this->input->get('id', TRUE);
 
-		$this->load->view('layout/header_page', $customer);
+		$data['product'] = $this->mProduct->get_all_product($kategory);
+		$data['category'] = $this->mCategory->get_all_category();
+
+		$this->load->view('layout/header_page');
 		$this->load->view('pages/product', $data);
 		$this->load->view('layout/footer');
 	}
