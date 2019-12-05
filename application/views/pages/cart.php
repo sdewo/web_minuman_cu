@@ -127,7 +127,7 @@
     <div class="page-content-inner ptb--80 pt-md--40 pb-md--60">
         <div class="container"><br><br>
             <center>
-            <h1>TIDAK ADA BARANG YANG DALAM CART !!</h1>
+            <h1>TIDAK ADA BARANG DALAM CART !!</h1>
             <button class="btn btn-shape-round form__submit"><a href="<?php echo base_url('product'); ?>">belanja lagi !!</a></button>
             </center>
             <br><br><br>
