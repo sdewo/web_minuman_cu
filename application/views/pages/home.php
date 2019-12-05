@@ -68,7 +68,7 @@
 							</div>
 							<div class="col-lg-4 offset-lg-2 col-md-4">
 								<figure class="slider-image d-none d-md-block">
-									<img src="dist/img/products/waterfruit1.jpg" alt="Water Fruit">
+									<img src="dist/img/products/water fruit.jpg" alt="Water Fruit">
 								</figure>
 							</div>
 						</div>
@@ -79,8 +79,54 @@
 	</section>
 
 	<!-- Featured Product Area Start -->
+	<section class="featured-product-area mb--11pt5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="sr-only">Featured Product</h2>
+				</div>
+			</div>
+			<div class="row align-items-center">
+				<div class="col-md-6 mb-sm--50">
+					<div class="featured-product">
+						<div class="featured-product__inner info-right-bottom">
+							<figure class="featured-product__image">
+								<img src="dist/img/products/water fruit.jpg" alt="Featured Product">
+							</figure>
+							<div class="featured-product__info wow pbounceInDown" data-wow-delay=".6s" data-wow-duration=".8s">
+								<div class="featured-product__info-inner rotated-info">
+									<h4 class="featured-product__text">Special Offer <strong>39%</strong> Off</h4>
+									<h2 class="featured-product__name">Best Seller</h2>
+								</div>
+							</div>
+							<span class="featured-product__badge badge-top-left">53% off</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="featured-product">
+						<div class="featured-product__inner info-center">
+							<figure class="featured-product__image">
+								<img src="dist/img/products/discount.png" alt="Featured Product" width="80%">
+							</figure>
+							<!-- <div class="featured-product__info wow pbounceInLeft" data-wow-delay=".3s" data-wow-duration=".8s">
+								<div class="featured-product__info-inner">
+									<h4 class="featured-product__text">Mega Sale Offer</h4>
+									<h2 class="featured-product__name">Maxica Bag</h2>
+								</div>
+							</div>
+							<span class="featured-product__badge">53% off</span> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Featured Product Area End -->
 
-	<section class="featured-product-area mb--10pt8">
+	<!-- Featured Product Area Start -->
+
+	<!-- <section class="featured-product-area mb--10pt8">
 	<div class="single-slide d-flex align-items-center bg-image"
 					data-bg-image="dist/img/slider/slider-bg-01.jpg">
 		<div class="container">
@@ -94,7 +140,7 @@
 					<div class="featured-product">
 						<div class="featured-product__inner info-center">
 							<figure class="featured-product__image">
-								<img src="dist/img/products/waterfruit1.jpg" alt="Water Fruit"style = "width:500px;height:450px">
+								<img src="dist/img/products/water fruit.jpg" alt="Water Fruit"style = "width:500px;height:450px">
 							</figure>
 							<div class="featured-product__info wow pbounceInLeft" data-wow-delay=".3s" data-wow-duration="1s">
 								<div class="featured-product__info-inner">
@@ -120,17 +166,36 @@
 				</div>
 			</div>
 		</div>
+	</section> -->
+	<section class="method-area mb--11pt5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="sr-only">Methods</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 mb-sm--50">
+					<div class="method-box shipment-method">
+						<i class="flaticon-truck"></i>
+						<h3>Free Home Delivery</h3>
+					</div>
+				</div>
+				<div class="col-md-4 mb-sm--50">
+					<div class="method-box money-back-method">
+						<i class="flaticon-money"></i>
+						<h3>MONEY BACK GUARANTEE</h3>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="method-box support-method">
+						<i class="flaticon-support"></i>
+						<h3>SUPORT 24/7</h3>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
-	<!-- Featured Product Area End -->
-
-	<!-- Product Area Start -->
-	
-	<!-- Product Area End -->
-
-	<!-- Featured Product Area Start -->
-	
-	<!-- Featured Product Area End -->
-
 	
 </main>
 <!-- Main Content Wrapper End -->
